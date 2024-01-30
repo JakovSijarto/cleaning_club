@@ -9,7 +9,7 @@
         <div class="text-[#082680] text-[36px] font-extrabold flex flex-col text-center  max-[640px]:flex max-[640px]:items-center max-[640px]:justify-center max-[302px]:px-2">
           Pružamo najbolje usluge
           <small class="font-normal mb-[14px]">za Vašu potrebu!</small>
-          <div class="text-center text-[16px] leading-[27px] text-[#3A4268] w-[600px] font-light mt-4 max-[640px]:w-[90%]">PSClean je tvrtka za čišćenje osnovana u Srbiji s više usluga, nudeći različita rješenja za čišćenje.</div>
+          <div class="text-center text-[16px] leading-[27px] text-[#3A4268] w-[600px] font-light mt-4 max-[640px]:w-[90%]">Cleaning club je tvrtka za čišćenje osnovana u Srbiji s više usluga, nudeći različita rješenja za čišćenje.</div>
         </div>
         </div>
         <div class="flex gap-[2em] mt-[3em]   max-[950px]:flex-col max-[950px]:justify-center max-[950px]:items-center">

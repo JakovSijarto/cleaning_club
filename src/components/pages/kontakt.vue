@@ -34,7 +34,7 @@
        </section>
 
     <kontaktbottom/>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d89850.5298313243!2d19.69355501819797!3d45.27146619398524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475b10613de93455%3A0xb6f7d683724fe28!2sNovi%20Sad%2C%20Srbija!5e0!3m2!1shr!2shr!4v1699521658252!5m2!1shr!2shr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d177883.636774055!2d15.799556701221881!3d45.84265628694488!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4765d692c902cc39%3A0x3a45249628fbc28a!2sZagreb!5e0!3m2!1shr!2shr!4v1706640895484!5m2!1shr!2shr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </template>
 
 <script setup>

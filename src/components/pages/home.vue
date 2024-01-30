@@ -4,7 +4,7 @@
     <div class="absolute top-[0%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex justify-between gap-[0.5em] mt-[40em] w-[1280px] max-[1340px]:w-full max-[1100px]:mt-[0em] max-[1340px]:px-2 max-[1100px]:flex-col max-[1100px]:items-center ">
       <div class="text-white w-[900px] max-[1100px]:w-full  max-[1100px]:mt-[80em]   max-[754px]:text-center max-[754px]:w-[400px] max-[460px]:w-full">
         <p class="text-[60px] font-bold leading-[1.2em] max-[754px]:text-[35px]">Nudimo Vam usluge profesionalnog čišćenja</p>
-        <p class="text-[18px] py-8 w-[600px] max-[1100px]:w-full max-[754px]:text-[14px]">PSClean je profesionalan u industriji čišćenja pružanjem vrhunskih usluga čišćenja i pratećih usluga</p>
+        <p class="text-[18px] py-8 w-[600px] max-[1100px]:w-full max-[754px]:text-[14px]">Cleaning club je profesionalan u industriji čišćenja pružanjem vrhunskih usluga čišćenja i pratećih usluga</p>
         <router-link to="/aboutus" class="button" id="button-7">
     <div id="dub-arrow"><img src="../../assets/home/herosec_main_button,svg.svg" alt="" /></div>
     <a href="#" class="font-bold">Naše Usluge</a>

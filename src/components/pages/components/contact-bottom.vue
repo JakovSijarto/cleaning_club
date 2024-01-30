@@ -14,21 +14,21 @@
               <img src="../../../assets/contact/location_contact.svg" alt="" class="mr-[16px]">
               <div class="flex flex-col">
                 <p class="text-[20px] text-[#082680] mb-[10px] font-bold">Naša Adresa</p>
-                <p class="text-[14px] text-[#3A4268]">Ulica 2, Srbija</p> 
+                <p class="text-[14px] text-[#3A4268]">adresa</p> 
               </div>
             </div>
             <div class="p-[15px] w-[100%] flex items-center border h-full py-[30px] hover-class" style="transition:0.2s all ease-in">
               <img src="../../../assets/contact/telephonecall_contact.svg" alt="" class="mr-[16px]">
               <div class="flex flex-col">
                 <p class="text-[20px] text-[#082680] mb-[10px] font-bold">Telefonski Broj</p>
-                <p class="text-[14px] text-[#3A4268]">062-868-04-99</p> 
+                <p class="text-[14px] text-[#3A4268]">+385-92-188-7519</p> 
               </div>
             </div>
             <div class="p-[15px] w-[100%] flex items-center border h-full py-[30px] hover-class" style="transition:0.2s all ease-in">
               <img src="../../../assets/contact/mail_contact.svg" alt="" class="mr-[16px]">
               <div class="flex flex-col ">
                 <p class="text-[20px] text-[#082680] mb-[10px] font-bold">Mail Adresa</p>
-                <p class="text-[14px] text-[#3A4268] max-[310px]:text-[12px]">psclean906@gmail.com</p> 
+                <p class="text-[14px] text-[#3A4268] max-[310px]:text-[12px]">gmail@gmail.com</p> 
               </div>
             </div>
           </div>

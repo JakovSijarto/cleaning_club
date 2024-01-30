@@ -2,18 +2,18 @@
     <div class="mx-auto h-[112px] w-full fixed z-[1000] shadow-box max-[570px]:!shadow-none max-[571px]:h-[81px]">
         <nav class="flex items-center w-full justify-center bg-[#000E39] px-4 max-[570px]:hidden">
                 <div class="h-[42px] w-[1280px] flex items-center text-white max-[1000px]:w-full">
-                    <div class="w-[140px] h-[202px] bg-white rounded-b-lg max-[1000px]:hidden flex justify-center items-center">
-                      <img src="../../../assets/logo.png" alt="" class="w-[65%] h-[40%] mt-[5em]">
+                    <div class="w-[250px] h-[202px] bg-white rounded-b-lg max-[1000px]:hidden flex justify-center items-center">
+                      <img src="../../../assets/logo.png" alt="" class="w-[65%] h-[40%] mt-[5em] object-cover">
                     </div>
                     <div class="w-full flex justify-start text-[14px] pl-4">
                         <img src="../../../assets/navbar-footer/phone_navbar.svg" alt="" class="w-[20px]">
-                        <a class="text-[#c2cdeb] nav-font pl-2" href="tel:+381628680499">062-868-04-99</a>
+                        <a class="text-[#c2cdeb] nav-font pl-2" href="tel:+385915078575">+385 91 507 8575</a>
                         <div class="relative pl-[44px] ml-[44px] nav-before flex flex-row">
                             <img src="../../../assets/navbar-footer/mail_navbar.svg" alt="" class="w-[20px]">
-                            <a class="text-[#c2cdeb] nav-font pl-2" href="mailto:psclean906@gmail.com">psclean906@gmail.com</a>
+                            <a class="text-[#c2cdeb] nav-font pl-2" href="mailto:pgmail@gmail.com">gmail@gmail.com</a>
                         </div>
                     </div>
-                    <div class="flex justify-end">
+                    <div class="flex justify-end  hidden">
                       <a href="https://www.facebook.com/profile.php?id=61552836153409"><img src="../../../assets/navbar-footer/navbar_facebook.svg" alt="" class="w-[15px] mr-4"></a> 
                       <a href="https://www.instagram.com/pscleanbeograd/"><img src="../../../assets/navbar-footer/instagram_navbar.svg" alt="" class="w-[15px]"></a> 
                     </div>
@@ -22,7 +22,7 @@
         <nav class="bg-[#007CFB] flex items-center w-full justify-center px-4 max-[570px]:bg-white">
             <div class="h-[70px] w-[1280px] flex items-center text-white max-[1000px]:w-full">
                 <p class="w-full flex justify-start text-[14px] pl-4 min-[1000px]:hidden max-[571px]:hidden">
-                  <img src="../../../assets/good_logo.png" alt="" class="w-[60px] h-full ">
+                  <img src="../../../assets/logo.png" alt="" class="w-[60px] h-full object-cover">
                 </p>
                 <ul class="flex w-full justify-end text-white font-semibold max-[571px]:hidden gap-[2em]">
                   <router-link to="/"><li>Home</li></router-link>
@@ -34,7 +34,7 @@
           style="box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);"
         >
           <li class="flex-1" id="navbar_logo">
-            <img src="../../../assets/logo.png" alt="" class="w-[50px] h-[40%]">
+            <img src="../../../assets/logo.png" alt="" class="w-[70px] h-[40%] object-cover">
           </li>
 
           <button
