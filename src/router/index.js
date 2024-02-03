@@ -1,37 +1,35 @@
-import { createRouter, createWebHashHistory  } from "vue-router";
-
-import home from "../components/pages/home.vue"
-import aboutus from "../components/pages/aboutus.vue"
-import kontakt from "../components/pages/kontakt.vue"
-import NotFound from "../components/notfound.vue"
-
+import { createRouter, createWebHistory } from 'vue-router'
 
 const routes = [
     {
         path: '/',
-        component: home
+        name: 'Home',
+        component: ()=> import('../components/pages/home.vue'),
     },
     {
         path:'/aboutus',
-        component:aboutus
+        name: 'aboutus',
+        component: ()=> import('../components/pages/aboutus.vue')
     },
     {
         path:'/kontakt',
-        component:kontakt
+        component:'kontakt',
+        component: ()=> import('../components/pages/kontakt.vue')
     },
     {
         path: '/:pathMatch(.*)*',
-        component: NotFound
+        component: 'NotFound',
+        component: ()=> import('../components/notfound.vue'),
     },
 ]
 
 
 const router = createRouter({
-    history: createWebHashHistory(),
+    history: createWebHistory(import.meta.env.BASE_URL),
     routes,
     scrollBehavior (to, from, savedPosition) {
-        return savedPosition || { top:0 }
-      }
-})
-
-export default router 
+      return savedPosition || { top:0 }
+    }
+  })
+  
+  export default router

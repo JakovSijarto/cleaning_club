@@ -8,12 +8,11 @@
                 </li>
                 <li class="text-[#C2D5E7] text-[14px]">
                     <p class="text-[24px] font-bold !text-white leading-relaxed max-[500px]:mt-8 max-[500px]:text-left">INFO:</p>
-                    <p class="flex gap-[0.5em] mt-4"><img src="../../../assets/navbar-footer/location_footer.svg" alt="" class="w-[20px]">adresa</p>
                     <a href="tel:+385915078575" class="flex gap-[0.5em] my-4"><img src="../../../assets/navbar-footer/phone_footer.svg" alt="" class="w-[20px]">+385-92-188-7519</a>
-                    <a href="mailto:psclean906@gmail.com" class="flex gap-[0.5em]"><img src="../../../assets/navbar-footer/mail_footer.svg" alt="" class="w-[20px]">gmail@gmail.com</a>
-                    <div class="flex pt-4 gap-4 hidden">
-                       <a href="https://www.facebook.com/profile.php?id=61552836153409"><img src="../../../assets/navbar-footer/facebook_footer.svg" alt="" class="w-[30px] h-[30px] "></a> 
-                       <a href="https://www.instagram.com/pscleanbeograd/"><img src="../../../assets/navbar-footer/instagram_footer.svg" alt="" class="w-[30px] h-[30px]"></a> 
+                    <a href="mailto:cleaning.club78@gmail.com" class="flex gap-[0.5em]"><img src="../../../assets/navbar-footer/mail_footer.svg" alt="" class="w-[20px]">cleaning.club78@gmail.com</a>
+                    <div class="flex pt-4 gap-4">
+                       <a href=""><img src="../../../assets/navbar-footer/facebook_footer.svg" alt="" class="w-[30px] h-[30px] "></a> 
+                       <a href="https://www.instagram.com/cleaning.club78/"><img src="../../../assets/navbar-footer/instagram_footer.svg" alt="" class="w-[30px] h-[30px]"></a> 
                     </div>
                 </li>
             </ul>

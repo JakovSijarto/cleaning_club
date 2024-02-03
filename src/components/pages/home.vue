@@ -48,20 +48,27 @@
         </div>
         <div class="w-[880px] flex justify-center item-center mt-[42px] max-[1100px]:w-full ">
         <tabs class="mb-[10em] max-[620px]:mb-[26em]" :options="{ defaultTabHash: 'second-tab' }" >
-        <tab name="Naša Filozofija" class="flex h-[400px] max-[620px]:flex-col">
+        <tab name="Usluge" class="flex h-[400px] max-[620px]:flex-col">
             <div class="w-[50%] pt-[51px] max-[620px]:pt-[30px] pr-[30px] pb-[60px] pl-[40px] max-[620px]:w-full">
-              <p class="text-[29px] mb-[10px] font-bold text-[#082680]">Lorem ipsum dolor sit amet!</p>
-              <p class="mb-[36px] text-[#3A4268] rubik-font text-[15px]">We know that if you love our service you’re going to recommend us to your family and friends, so your satisfaction is our number one priority. If you’re unhappy with our service in any way</p>
+              <p class="text-[29px] mb-[10px] font-bold text-[#082680]">Naše usluge!</p>
+              <p class="mb-[36px] text-[#3A4268] rubik-font text-[15px]">Čiščenje stanova, kuća, poslovnih prostora, ureda, hotela, zdrastvenih ustanova (ordinacije i poliklinike) i apartmana</p>
               <router-link to="/aboutus"><button class="rounded-[50px] px-[26px] text-[15px] font-bold text-white bg-[#0431b8] leading-[48px] tracking-[2px]">Pogledaj Više</button></router-link> 
             </div>
             <div class="w-[50%] max-[620px]:w-full">
               <img src="../../assets/home/nasafilozofija-home.jpg" alt="" class="w-[100%] h-[100%] object-cover rounded-[5px]">
             </div>
         </tab>
-        <tab name="Misija Kompanije" class="flex h-[400px] max-[620px]:flex-col">
+        <tab name="Dodatne informacije" class="flex h-[400px] max-[620px]:flex-col">
           <div class="w-[50%] pt-[51px] pr-[30px] pb-[60px] pl-[40px] max-[620px]:w-full">
-              <p class="text-[29px] mb-[10px] font-bold text-[#082680]">Lorem ipsum dolor sit amet!</p>
-              <p class="mb-[36px] text-[#3A4268] rubik-font text-[15px]">We know that if you love our service you’re going to recommend us to your family and friends, so your satisfaction is our number one priority. If you’re unhappy with our service in any way</p>
+              <ul class="text-[18px] mb-[10px]  text-[#082680]">
+                <li class="font-bold text-[25px] pb-4">OBAVLJAMO:</li>
+                <li>- administrativne usluge</li>
+                <li>- kurirske usluge</li>
+                <li>- usluge prevođenja</li>
+                <li>- kupnja i prodaja robe</li>
+                <li>- djelatnost autopraonice</li>
+                <li class="pb-6">- izrada suvenira, uporabnih i ukrasnih predmeta</li>
+              </ul>
               <router-link to="/aboutus"><button class="rounded-[50px] px-[26px] text-[15px] font-bold text-white bg-[#0431b8] leading-[48px] tracking-[2px]">Pogledaj Više</button></router-link> 
             </div>
             <div class="w-[50%] max-[620px]:w-full">
@@ -70,8 +77,8 @@
         </tab>
         <tab name="Naša Vizija" class="flex h-[400px] max-[620px]:flex-col">
           <div class="w-[50%] pt-[51px] pr-[30px] pb-[60px] pl-[40px] max-[620px]:w-full">
-              <p class="text-[29px] mb-[10px] font-bold text-[#082680]">Lorem ipsum dolor sit amet!</p>
-              <p class="mb-[36px] text-[#3A4268] rubik-font text-[15px]">We know that if you love our service you’re going to recommend us to your family and friends, so your satisfaction is our number one priority. If you’re unhappy with our service in any way</p>
+              <p class="text-[29px] mb-[10px] font-bold text-[#082680]">Što želimo za Vas!</p>
+              <p class="mb-[36px] text-[#3A4268] rubik-font text-[15px]">Uz našu pomoć imati ćete više slobodnog vremena uz čiščenje prema Vašim potrebama</p>
              <router-link to="/aboutus"><button class="rounded-[50px] px-[26px] text-[15px] font-bold text-white bg-[#0431b8] leading-[48px] tracking-[2px]">Pogledaj Više</button></router-link> 
             </div>
             <div class="w-[50%] max-[620px]:w-full">
@@ -85,36 +92,33 @@
     
     <div class="w-full flex justify-center items-center py-18 pb-32 ">
       <div class="flex w-[880px] justify-center flex-col items-center max-[1100px]:w-full max-[1100px]:px-8 max-[920px]:px-2">
-        <div class="flex w-full justify-between items-center max-[920px]:flex-col">
-          <div class="max-[920px]:flex max-[920px]:flex-col max-[920px]:items-center">
-            <p class="rubik-font text-[18px] font-semibold text-[#3A4268] flex gap-[1em] items-center"> <img src="../../assets/home/stars-aboutus-home.svg" alt="" class="w-[34px]">Zašto izabrati nas?</p>
-            <p class="text-[#082680] text-[36px] font-extrabold flex flex-col text-start mt-[15px] max-[920px]:text-center">Zbog naše kvalitete <small class="font-normal mb-[14px]">morate izabrati nas!</small></p>
-          </div>
-          <p class="w-[430px] text-[#3A4268] rubik-font max-[920px]:text-center max-[920px]:w-[90%]">Naša agencija ima najbolje ljude i proizvode za čiščenje. Ovo su neke od stvari koje radimo.</p>
+        <div class="flex w-full justify-center items-center text-center flex-col">
+            <p class="rubik-font text-[18px] font-semibold text-[#3A4268] flex gap-[1em] items-center"> <img src="../../assets/home/stars-aboutus-home.svg" alt="" class="w-[34px]">Kako radimo?</p>
+            <p class="text-[#082680] text-[36px] font-extrabold flex flex-col mt-[15px] text-center">Kako obavljamo posao <small class="font-normal mb-[14px]">izaberite nas!</small></p>
         </div>
         <div class=" flex w-[1280px]  max-[1270px]:w-full  mt-12 justify-between px-4 max-[660px]:items-center max-[660px]:gap-[2em] max-[660px]:w-full max-[920px]:flex-col max-[920px]:justify-center max-[920px]:items-center max-[920px]:gap-20">
-          <div class="mb-[3px] flex justify-center flex-col items-center text-center max-[920px]:flex max-[920px]:flex-row   max-[920px]:justify-center max-[920px]:items-center max-[660px]:gap-[1em] max-[530px]:flex-col ">
+          <div class="mb-[3px] flex w-full justify-center flex-col items-center text-center max-[920px]:flex max-[920px]:flex-row   max-[920px]:justify-center max-[920px]:items-center max-[660px]:gap-[1em] max-[530px]:flex-col ">
               <div class="flex justify-center items-center bg-[#F1F3F8] w-[100px] h-[100px] mb-8  rounded-[50%] box-shadow-aboutusimg">
                           <img src="../../assets/home/potražiagentra_home.svg" alt="" class="w-[50px]">
                     </div>
-                    <p class="text-[#082680] text-[22px] font-bold pb-[17px] mb-[14px] small-line-responsive2 max-[920px]:mx-4 max-[530px]:pb-0 max-[530px]:mb-0 ">Pronađi Agenta</p>
-                    <p class="w-[60%]">As a app web crawler expert, I help organizations adjust to the expanding significance of internet.</p>
+                    <p class="text-[#082680] text-[22px] font-bold py-[17px] max-[920px]:mx-4 max-[530px]:pb-0 max-[530px]:mb-0 ">Zatražite čiščenje</p>
+                    <p class="w-[60%]">Stupimo u kontakt da razjasnimo Vaše potrebe.</p>
             </div>
 
-            <div class="mb-[3px] text-center flex justify-center flex-col items-center max-[920px]:flex max-[920px]:flex-row max-[660px]:gap-[1em] max-[920px]:justify-center max-[920px]:items-center max-[530px]:flex-col">
+            <div class="mb-[3px] text-center flex flex w-full justify-center flex-col items-center max-[920px]:flex max-[920px]:flex-row max-[660px]:gap-[1em] max-[920px]:justify-center max-[920px]:items-center max-[530px]:flex-col">
               <div class="flex justify-center items-ccenter bg-[#F1F3F8] w-[100px] h-[100px] mb-8 rounded-[50%] box-shadow-aboutusimg">
-                          <img src="../../assets/home/calculator_home.svg" alt="" class="w-[50px]">
-                    </div>
-                    <p class="text-[#082680] text-[22px] font-bold pb-[17px] mb-[14px] small-line-responsive3 max-[920px]:mx-4 max-[530px]:pb-0 max-[530px]:mb-0 ">Dobite Račun</p>
-                    <p class="w-[60%]">As a app web crawler expert, I help organizations adjust to the expanding significance of internet.</p>
-            </div>
-
-            <div class="mb-[3px] text-center flex justify-center flex-col items-center max-[920px]:flex max-[920px]:flex-row max-[660px]:gap-[1em] max-[920px]:justify-center max-[920px]:items-center max-[530px]:flex-col">
-              <div class="flex justify-center items-center bg-[#F1F3F8] w-[100px] h-[100px] mb-8  rounded-[50%] box-shadow-aboutusimg">
                           <img src="../../assets/home/target_home.svg" alt="" class="w-[50px]">
                     </div>
-                    <p class="text-[#082680] text-[22px] font-bold pb-[17px] mb-[14px] small-line-responsive4 max-[920px]:mx-4 max-[530px]:pb-0 max-[530px]:mb-0">Angažirajte Agenta!</p>
-                    <p class="w-[60%]">As a app web crawler expert, I help organizations adjust to the expanding significance of internet.</p>
+                    <p class="text-[#082680] text-[22px] font-bold py-[17px]  max-[920px]:mx-4 max-[530px]:pb-0 max-[530px]:mb-0 ">Dobite čiščenje</p>
+                    <p class="w-[60%]">Razjrešimo Vaše nedostatke i potrebe, napravimo sav posao.</p>
+            </div>
+
+            <div class="mb-[3px] text-center flex flex w-full justify-center flex-col items-center max-[920px]:flex max-[920px]:flex-row max-[660px]:gap-[1em] max-[920px]:justify-center max-[920px]:items-center max-[530px]:flex-col">
+              <div class="flex justify-center items-center bg-[#F1F3F8] w-[100px] h-[100px] mb-8  rounded-[50%] box-shadow-aboutusimg">
+                          <img src="../../assets/home/calculator_home.svg" alt="" class="w-[50px]">
+                    </div>
+                    <p class="text-[#082680] text-[22px] font-bold py-[17px] max-[920px]:mx-4 max-[530px]:pb-0 max-[530px]:mb-0">Platite i dobite račun!</p>
+                    <p class="w-[60%]">Plaćanje na kraju, nakon što ste potpuno zadovoljni sa našom uslugom.</p>
             </div>
         </div>
         <router-link to="/aboutus" class="mt-[4em]"><button class="rounded-[50px] px-[26px] text-[15px] font-bold text-white bg-[#0431b8] leading-[48px] tracking-[2px]">Pogledaj Više</button></router-link>

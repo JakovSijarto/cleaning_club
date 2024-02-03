@@ -10,12 +10,12 @@
                         <a class="text-[#c2cdeb] nav-font pl-2" href="tel:+385915078575">+385 91 507 8575</a>
                         <div class="relative pl-[44px] ml-[44px] nav-before flex flex-row">
                             <img src="../../../assets/navbar-footer/mail_navbar.svg" alt="" class="w-[20px]">
-                            <a class="text-[#c2cdeb] nav-font pl-2" href="mailto:pgmail@gmail.com">gmail@gmail.com</a>
+                            <a class="text-[#c2cdeb] nav-font pl-2" href="mailto:cleaning.club78@gmail.com">cleaning.club78@gmail.com</a>
                         </div>
                     </div>
-                    <div class="flex justify-end  hidden">
-                      <a href="https://www.facebook.com/profile.php?id=61552836153409"><img src="../../../assets/navbar-footer/navbar_facebook.svg" alt="" class="w-[15px] mr-4"></a> 
-                      <a href="https://www.instagram.com/pscleanbeograd/"><img src="../../../assets/navbar-footer/instagram_navbar.svg" alt="" class="w-[15px]"></a> 
+                    <div class="flex justify-end">
+                      <a href=""><img src="../../../assets/navbar-footer/navbar_facebook.svg" alt="" class="w-[20px] mr-4"></a> 
+                      <a href="https://www.instagram.com/cleaning.club78/"><img src="../../../assets/navbar-footer/instagram_navbar.svg" alt="" class="w-[25px]"></a> 
                     </div>
                 </div>
         </nav>
@@ -29,6 +29,7 @@
                     <router-link to="/aboutus"><li>O nama</li></router-link>
                     <router-link to="/kontakt"><li>Kontakt</li></router-link>
                 </ul>
+                
                 <ul
           class="fixed flex justify-between items-center min-[571px]:hidden z-[101] bg-[white] w-full top-0 left-0 px-[1em] py-[1em]"
           style="box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);"
@@ -88,6 +89,7 @@
             <router-link class="hamburger-text" to="/aboutus">O nama</router-link>
           </li>
         </ul>
+        
             </div>
         </nav>
     </div>
