@@ -5,35 +5,37 @@
             <p class="absolute text-[60px] font-bold text-white max-[310px]:text-[40px] tracking-[5px]">O NAMA</p>
         </div>
     </div>
-    <div class="w-full flex justify-center py-[5em]">
-        <div class="flex w-[880px] justify-between items-center gap-[3em] max-[1240px]:w-full max-[1240px]:px-8 max-[800px]:flex-col">
-            <img src="../../assets/aboutus/aboutus-sec.jpg" alt="" class="w-[400px] h-[400px] rounded-[20px] object-cover">
-        <div class="flex items-start flex-col  pb-8">
-          <div class="flex gap-[1em] flex-row items-center">
-          <img src="../../assets/home/stars-aboutus-home.svg" alt="" class="w-[34px]">
-          <p class="rubik-font text-[18px] font-semibold text-[#3A4268]">Naše usluge</p>
+    <div class="w-full flex justify-center items-center flex-col">
+        <div class="w-[1280px] flex justify-between py-24 gap-[1em] max-[1300px]:w-full px-6 max-[640px]:flex-col max-[640px]:items-center max-[640px]:py-12 max-[640px]:gap-[5em]">
+            <div class="w-[60%] max-[640px]:text-center max-[640px]:w-full">
+                <h1 class="text-[#082680] text-[36px] font-extrabold text-start mt-[2em] max-[640px]:text-center max-[640px]:w-full">TREBATE ČIŠĆENJE?</h1>
+            <p class="font-normal my-[14px] text-[#082680] text-[18px]">Javite nam se i na Vašoj smo adresi. <br> 
+            Prepustite čišćenje Vašeg doma profesionalcima!</p>
+            <router-link to="/kontakt" class="mt-[4em]"><button class="rounded-[50px] px-[26px] mt-8 text-[15px] font-bold text-white bg-[#0431b8] leading-[48px] tracking-[2px]">Javite nam se</button></router-link>
+            </div>
+            <img src="../../assets/aboutus/aboutus-sec.jpg" alt="" class="w-full h-[400px] object-cover rounded-[15px] max-[1060px]:w-[40%] max-[640px]:w-full">
         </div>
-        <div class="text-[#082680] text-[36px] font-extrabold border-b pb-8 flex flex-col max-[640px]:flex max-[302px]:px-2 max-[350px]:text-[28px] max-[350px]:pt-4">
-          Pružamo najbolje usluge
-          <small class="font-normal mb-[14px] ">za Vašu potrebu!</small>
-          <div class="text-[16px] leading-[27px] text-[#3A4268] w-[600px] font-light mt-4 max-[1100px]:w-[90%] max-[350px]:text-[14px]">Cleaning club je tvrtka za čišćenje osnovana u Hrvatskoj s više usluga, nudeći različita rješenja za čišćenje.</div>
+        <div class="flex w-[1280px] justify-between max-[1300px]:w-full gap-[1em] items-center max-[670px]:flex-col px-6">
+          <div class="max-[670px]:flex max-[670px]:flex-col max-[670px]:items-center">
+            <p class="rubik-font text-[18px] font-semibold text-[#3A4268] flex gap-[1em] items-center"> <img src="../../assets/home/stars-aboutus-home.svg" alt="" class="w-[34px]"> Usluge koje nudimo</p>
+            <p class="text-[#082680] text-[36px] font-extrabold flex flex-col text-start mt-[15px] max-[670px]:text-center">Zbog naše kvalitete <small class="font-normal mb-[14px]">izaberite nas!</small></p>
+          </div>
+          <p class="w-[430px] text-[#3A4268] rubik-font max-[670px]:text-center max-[670px]:w-[90%]">Uz našu pomoć imati ćete više slobodnog vremena uz čišćenje prema Vašim potrebama!</p>
         </div>
-        <div class="flex flex-row pt-8 gap-[2em] max-[400px]:flex-col">
-        <img src="../../assets/aboutus/instagramicon_aboutus.png" alt="" class="w-[100px] max-h-[100px] hidden">
-        <div>
-            <p class="mt-[13px] mb-[7px] text-[#082680] font-extrabold">Pogledajte kako čistimo!</p>
-            <p class="text-[#3A4268] text-[14px] w-[80%]">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, ad?.</p>
+        <div class="flex w-[1280px] max-[1300px]:w-full justify-between gap-[1em] items-center max-[670px]:flex-col pb-[5em] px-6">
+            <ul class="text-[18px] mb-[10px]  text-[#082680] max-[670px]:py-16 max-[670px]:mb-0">
+                <li class="font-bold text-[25px] pb-4">OBAVLJAMO:</li>
+                <li>- administrativne usluge</li>
+                <li>- kurirske usluge</li>
+                <li>- usluge prevođenja</li>
+                <li>- kupnja i prodaja robe</li>
+                <li>- djelatnost autopraonice</li>
+                <li class="pb-6">- izrada suvenira, uporabnih i ukrasnih predmeta</li>
+              </ul>
+              <img src="../../assets/aboutus/aboutus-sec2.png" alt="" class="w-[60%] h-[400px] object-cover rounded-[15px] max-[670px]:w-full">
         </div>
     </div>
-        </div>
-        </div>
-    </div>
-    
-    <aboutussection/>
-    
     <kontaktbottom/>
-
-    
 </template>
 
 <script setup>

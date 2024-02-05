@@ -8,7 +8,7 @@
 
     <section class="h-[50em] w-full relative z-3 flex justify-center items-center max-[630px]:h-[60em]">
         <form ref="form" @submit.prevent="sendEmail " class="w-[1200px] mx-8 max-[1350px]:w-full">
-          <p class="font-bold mb-[50px] leading-[3rem] text-[#3A4268] text-[3em] font-extrabold max-[360px]:text-[2em] ">Kontaktirajte nas.</p>
+          <p class="font-bold mb-[50px] leading-[3rem] text-[#3A4268] text-[1.5em] font-extrabold max-[330px]:text-[1.3em] ">Obratite nam se s povjerenjem.</p>
           <div class="flex justify-between max-[630px]:flex-col ">
             <div class="w-[49%] max-[630px]:w-full">
               <input type="text" name="ime" placeholder="Ime" class="" required v-model="ime">

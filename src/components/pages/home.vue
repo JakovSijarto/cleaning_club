@@ -20,8 +20,8 @@
             <select required class="mb-[18px] h-[46px] bg-[#007CFB] border border-[white] py-[6px] px-[22px] text-[15px] w-full text-white rounded-[5px]">
                 <option value="" disabled selected hidden>Izaberi uslugu*</option>
                 <option value="">Čiśćenje privatnih stanova/kuća</option>
-                <option value="">Čiśćenje poslovnih prostora</option>
-              <option value="">Održavanje biljaka</option>
+                <option value="">Čiśćenje okućnice</option>
+              <option value="">Odvoz nepotrebnog materijala</option>
             </select>
             <textarea name="" id="" class="mb-[18px] h-[100px] max-h-[100px] bg-[#007CFB] border border-[white] py-[15px] px-[22px] text-[15px] w-full text-white rounded-[5px] " placeholder="Poruka"></textarea>
             <div class="button" id="button-7">
@@ -121,7 +121,7 @@
                     <p class="w-[60%]">Plaćanje na kraju, nakon što ste potpuno zadovoljni sa našom uslugom.</p>
             </div>
         </div>
-        <router-link to="/aboutus" class="mt-[4em]"><button class="rounded-[50px] px-[26px] text-[15px] font-bold text-white bg-[#0431b8] leading-[48px] tracking-[2px]">Pogledaj Više</button></router-link>
+        <router-link to="/kontakt" class="mt-[4em]"><button class="rounded-[50px] px-[26px] text-[15px] font-bold text-white bg-[#0431b8] leading-[48px] tracking-[2px]">Javite nam se</button></router-link>
       </div>
     </div>
 
