@@ -13,21 +13,21 @@
       <div class="bg-linear-css w-[400px] h-[800px] top-[-10em] relative max-[1100px]:top-[25em] max-[1100px]:w-full  max-[1100px]:bg-[#007CFB] max-[1100px]:h-auto max-[1100px]:py-8 max-[460px]:w-full">
         <div class="mt-[100px] max-[1100px]:mt-[0px] flex px-[30px] text-white flex flex-col ">
           <p class="text-[24px] font-semibold mb-[24px]">Zatražite uslugu</p>
-          <form action="">
-            <input type="text" class="mb-[18px] h-[46px] bg-[#007CFB] border border-[white] py-[6px] px-[22px] text-[15px] w-full text-white rounded-[5px]" placeholder="Ime*">
-            <input type="text" class="mb-[18px] h-[46px] bg-[#007CFB] border border-[white] py-[6px] px-[22px] text-[15px] w-full text-white rounded-[5px]" placeholder="Broj Mobitela*">
-            <input type="text" class="mb-[18px] h-[46px] bg-[#007CFB] border border-[white] py-[6px] px-[22px] text-[15px] w-full text-white rounded-[5px]" placeholder="Email*">
+          <form ref="form" @submit.prevent="sendEmail">
+            <input type="text" required name="ime" v-model="ime" class="mb-[18px] h-[46px] bg-[#007CFB] border border-[white] py-[6px] px-[22px] text-[15px] w-full text-white rounded-[5px]" placeholder="Ime*">
+            <input type="text" required name="brojmobitela" v-model="brojmobitela" class="mb-[18px] h-[46px] bg-[#007CFB] border border-[white] py-[6px] px-[22px] text-[15px] w-full text-white rounded-[5px]" placeholder="Broj Mobitela*">
+            <input type="text" required name="email" v-model="email" class="mb-[18px] h-[46px] bg-[#007CFB] border border-[white] py-[6px] px-[22px] text-[15px] w-full text-white rounded-[5px]" placeholder="Email*">
             <select required class="mb-[18px] h-[46px] bg-[#007CFB] border border-[white] py-[6px] px-[22px] text-[15px] w-full text-white rounded-[5px]">
                 <option value="" disabled selected hidden>Izaberi uslugu*</option>
-                <option value="">Čiśćenje privatnih stanova/kuća</option>
-                <option value="">Čiśćenje okućnice</option>
-              <option value="">Odvoz nepotrebnog materijala</option>
+                <option value="Čiśćenje privatnih stanova/kuća" name="usluga">Čiśćenje privatnih stanova/kuća</option>
+                <option value="Čiśćenje okućnice" name="usluga">Čiśćenje okućnice</option>
+                <option value="Odvoz nepotrebnog materijala" name="usluga">Odvoz nepotrebnog materijala</option>
             </select>
-            <textarea name="" id="" class="mb-[18px] h-[100px] max-h-[100px] bg-[#007CFB] border border-[white] py-[15px] px-[22px] text-[15px] w-full text-white rounded-[5px] " placeholder="Poruka"></textarea>
-            <div class="button" id="button-7">
+            <textarea name="poruka" id="" v-model="poruka" class="mb-[18px] h-[100px] max-h-[100px] bg-[#007CFB] border border-[white] py-[15px] px-[22px] text-[15px] w-full text-white rounded-[5px] " placeholder="Poruka"></textarea>
+            <button class="button" id="button-7" type="submit" value="Send">
               <div id="dub-arrow" class="font-bold">ODMAH!</div>
               <a href="#" class="font-bold">POŠALJI</a>
-            </div>
+            </button>
           </form>
         </div>
       </div>
@@ -129,23 +129,49 @@
   </div>
 </template>
 
+
+
+<script>
+import emailjs from 'emailjs-com';
+import swal from 'sweetalert';
+import {Tabs, Tab} from 'vue3-tabs-component';
+
+export default {
+  components:{
+    Tabs,
+    Tab
+  },
+  data(){
+    return{
+      ime:"",
+      email:"",
+      poruka:"",
+      brojmobitela:""
+    }
+  },
+  methods: {
+    sendEmail() {
+      emailjs.sendForm('service_clwuk55', 'template_owzjwz9', this.$refs.form, '6y58hytHJtD9eVBSB')
+        .then((result) => {
+             console.log('SUCCESS!', result.text);
+            swal({title: "Uspješno!", text: "Hvala Na poruci", type: 
+"success"}).then(function(){ 
+   location.reload();
+   }
+);
+        }, (error) => {
+            console.log('FAILED...', error.text);
+        });
+        
+    },
+
+  },
+};
+</script>
 <script setup>
 import aboutussection from "./components/aboutus-services.vue"
  import kontaktbottom from "./components/contact-bottom.vue"
 </script>
-
-<script>
-import {Tabs, Tab} from 'vue3-tabs-component';
-
-export default{
-  components:{
-    Tabs,
-    Tab
-  }
-}
-
-</script>
-
 <style>
 .tabs-component-tabs{
   border: 0;

@@ -11,13 +11,13 @@
           <p class="font-bold mb-[50px] leading-[3rem] text-[#3A4268] text-[1.5em] font-extrabold max-[330px]:text-[1.3em] ">Obratite nam se s povjerenjem.</p>
           <div class="flex justify-between max-[630px]:flex-col ">
             <div class="w-[49%] max-[630px]:w-full">
-              <input type="text" name="ime" placeholder="Ime" class="" required v-model="ime">
+              <input type="text" name="ime" placeholder="Ime" required v-model="ime">
             </div>
-            <select class="w-[49%] max-[630px]:w-full border-b-2 border-[#3A4268] py-[15px] max-[630px]:pt-[25px]">
+            <select required name="usluga" class="w-[49%] max-[630px]:w-full border-b-2 border-[#3A4268] py-[15px] max-[630px]:pt-[25px]">
                 <option value="" disabled selected hidden>Izaberi uslugu*</option>
-                <option value="">Čiśćenje privatnih stanova/kuća</option>
-                <option value="">Čiśćenje poslovnih prostora</option>
-              <option value="">Održavanje biljaka</option>
+                <option value="Čiśćenje privatnih stanova/kuća" name="usluga">Čiśćenje privatnih stanova/kuća</option>
+                <option value="Čiśćenje okućnice" name="usluga">Čiśćenje okućnice</option>
+                <option value="Odvoz nepotrebnog materijala" name="usluga">Odvoz nepotrebnog materijala</option>
             </select>
           </div>
           <div class="flex justify-between max-[630px]:flex-col">
@@ -25,10 +25,10 @@
               <input type="email" name="email" placeholder="Email" required v-model="email">
             </div>
             <div class="w-[49%] max-[630px]:w-full my-[1rem] max-[630px]:mb-[16px] max-[630px]:mt-[0px]">
-              <input type="tel" name="telefon" placeholder="Telefon" required v-model="telefon">
+              <input type="tel" name="brojmobitela" placeholder="Telefon" required v-model="telefon">
             </div>
           </div>
-            <textarea name="poruka" placeholder="Poruka za nas!" v-model="poruka" class="mt-[30px] p-[15px] min-h-[200px] text-[white] bg-transparent max-h-[250px] mb-[1rem]"></textarea>
+            <textarea name="poruka" placeholder="Poruka za nas!" v-model="poruka" class="mt-[30px] p-[15px] min-h-[200px] text-[#000] bg-transparent max-h-[250px] mb-[1rem]"></textarea>
             <input type="submit" value="Send" class="float-right h-[50px] cursor-pointer max-[630px]:!w-full">
         </form>
        </section>
@@ -36,7 +36,37 @@
     <kontaktbottom/>
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d177883.636774055!2d15.799556701221881!3d45.84265628694488!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4765d692c902cc39%3A0x3a45249628fbc28a!2sZagreb!5e0!3m2!1shr!2shr!4v1706640895484!5m2!1shr!2shr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </template>
+<script>
+import emailjs from 'emailjs-com';
+import swal from 'sweetalert';
 
+export default {
+  data(){
+    return{
+      ime:"",
+      email:"",
+      poruka:"",
+      brojmobitela:""
+    }
+  },
+  methods: {
+    sendEmail() {
+      emailjs.sendForm('service_clwuk55', 'template_owzjwz9', this.$refs.form, '6y58hytHJtD9eVBSB')
+        .then((result) => {
+             console.log('SUCCESS!', result.text);
+            swal({title: "Uspješno!", text: "Hvala Na poruci", type: 
+"success"}).then(function(){ 
+   location.reload();
+   }
+);
+        }, (error) => {
+            console.log('FAILED...', error.text);
+        });
+        
+    },
+
+  },
+};</script>
 <script setup>
 import kontaktbottom from "./components/contact-bottom.vue"
 </script>

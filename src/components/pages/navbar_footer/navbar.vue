@@ -83,10 +83,10 @@
             <router-link class="hamburger-text" to="/">Home</router-link>
           </li>
           <li class="" id="navbar_naslovnica">
-            <router-link class="hamburger-text" to="/kontakt">Kontakt</router-link>
+            <router-link class="hamburger-text" to="/aboutus">O nama</router-link>
           </li>
           <li class="" id="navbar_naslovnica">
-            <router-link class="hamburger-text" to="/aboutus">O nama</router-link>
+            <router-link class="hamburger-text" to="/kontakt">Kontakt</router-link>
           </li>
         </ul>
         
