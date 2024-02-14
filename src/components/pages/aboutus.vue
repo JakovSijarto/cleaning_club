@@ -23,16 +23,7 @@
           <p class="w-[430px] text-[#3A4268] rubik-font max-[670px]:text-center max-[670px]:w-[90%]">Uz našu pomoć imati ćete više slobodnog vremena uz čišćenje prema Vašim potrebama!</p>
         </div>
         <div class="flex w-[1280px] max-[1300px]:w-full justify-between gap-[1em] items-center max-[670px]:flex-col pb-[5em] px-6">
-            <img src="../../assets/aboutus/aboutus-sec2.png" alt="" class="w-[60%] h-[400px] object-cover rounded-[15px] max-[670px]:w-full">
-            <ul class="text-[18px] mb-[10px]  text-[#082680] max-[670px]:py-16 max-[670px]:mb-0">
-                <li class="font-bold text-[25px] pb-4">OBAVLJAMO:</li>
-                <li>- administrativne usluge</li>
-                <li>- kurirske usluge</li>
-                <li>- usluge prevođenja</li>
-                <li>- kupnja i prodaja robe</li>
-                <li>- djelatnost autopraonice</li>
-                <li class="pb-6">- izrada suvenira, uporabnih i ukrasnih predmeta</li>
-              </ul>
+            <img src="../../assets/aboutus/aboutus-sec2.png" alt="" class="w-full pt-8 h-[400px] object-cover rounded-[15px] max-[670px]:w-full">
               
         </div>
     </div>

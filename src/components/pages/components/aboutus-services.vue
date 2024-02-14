@@ -13,15 +13,22 @@
         </div>
         </div>
         <div class="flex gap-[2em] mt-[3em]   max-[950px]:flex-col max-[950px]:justify-center max-[950px]:items-center">
-          <div class="w-[340px] h-[320px] box-shadow-aboutus rounded-[10px] flex justify-center items-center flex-col text-center max-[1100px]:w-full max-[950px]:w-[90%]">
+          <div class="w-[340px] h-[320px] box-shadow-aboutus rounded-[10px] flex justify-center items-center flex-col text-center max-[1100px]:w-full max-[950px]:w-[90%] max-[320px]:h-[360px]">
             <img src="../../../assets/home/house-aboutus-home.svg" alt="" class="cssdottedborder mb-[14px]">
-            <p class="text-[#082680] text-[20px] font-bold pb-[17px] mb-[14px]  w-[80%]">Čiśćenje ureda, kuće, garaže...</p>
-            <p class="w-[80%] rubik-font text-[#3A4268] text-[14px]">Detaljno čišćenje svih površina po Vašim potrebama</p>
+            <p class="text-[#082680] text-[20px] font-bold pb-[17px] mb-[14px]  w-[80%]">Naše usluge</p>
+            <p class="w-[80%] rubik-font text-[#3A4268] text-[14px]">Čiščenje stanova, kuća, poslovnih prostora, ureda, hotela, zdrastvenih ustanova (ordinacije i poliklinike) i apartmana</p>
           </div>
-          <div class="w-[340px] h-[320px] box-shadow-aboutus rounded-[10px] flex justify-center items-center flex-col text-center max-[1100px]:w-full max-[950px]:w-[90%]">
+          <div class="w-[340px] h-[320px] box-shadow-aboutus rounded-[10px] flex justify-center items-center flex-col text-center max-[1100px]:w-full max-[950px]:w-[90%] max-[320px]:h-[360px]">
             <img src="../../../assets/home/plants-aboutus-home.svg" alt="" class="cssdottedborder mb-[14px]">
             <p class="text-[#082680] text-[20px] font-bold pb-[17px] mb-[14px]  w-[80%]">Odvoz nepotrebnih materijala</p>
             <p class="w-[80%] rubik-font text-[#3A4268] text-[14px]">Na usluzi smo i maknuti sav nepotreban materijal iz Vašeg doma</p>
+          </div>
+          <div class="w-[340px] h-[320px] box-shadow-aboutus rounded-[10px] flex justify-center items-center flex-col text-center max-[1100px]:w-full max-[950px]:w-[90%] max-[320px]:h-[360px]">
+            <img src="../../../assets/home/info-aboutus-home.svg" alt="" class="cssdottedborder mb-[14px]">
+            <p class="text-[#082680] text-[20px] font-bold pb-[17px] mb-[14px]  w-[80%]">Dodatne informacije</p>
+            <p class="w-[80%] rubik-font text-[#3A4268] text-[14px]">
+              Čišćenje stanova i održavanje, Čišćenje poslovnih prostora i održavanje, Čišćenje zgrada, Čišćenje apartmana
+            </p>
           </div>
         </div>
       </div>

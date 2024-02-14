@@ -47,7 +47,7 @@
           <p class="w-[430px] text-[#3A4268] rubik-font max-[670px]:text-center max-[670px]:w-[90%]">Naša agencija ima najbolje ljude i proizvode za čiščenje. Ovo su neke od stvari kojih se uvijek držimo.</p>
         </div>
         <div class="w-[880px] flex justify-center item-center mt-[42px] max-[1100px]:w-full ">
-        <tabs class="mb-[10em] max-[620px]:mb-[26em]" :options="{ defaultTabHash: 'second-tab' }" >
+        <tabs class="mb-[10em] max-[620px]:mb-[20em]" :options="{ defaultTabHash: 'second-tab' }" >
         <tab name="Usluge" class="flex h-[400px] max-[620px]:flex-col">
             <div class="w-[50%] pt-[51px] max-[620px]:pt-[30px] pr-[30px] pb-[60px] pl-[40px] max-[620px]:w-full">
               <p class="text-[29px] mb-[10px] font-bold text-[#082680]">Naše usluge!</p>
@@ -58,18 +58,16 @@
               <img src="../../assets/home/nasafilozofija-home.jpg" alt="" class="w-[100%] h-[100%] object-cover rounded-[5px]">
             </div>
         </tab>
-        <tab name="Dodatne informacije" class="flex h-[400px] max-[620px]:flex-col">
-          <div class="w-[50%] pt-[51px] pr-[30px] pb-[60px] pl-[40px] max-[620px]:w-full">
+        <tab name="Dodatne informacije" class="flex h-[400px] max-[620px]:flex-col ">
+          <div class="w-[50%] pt-[51px] pr-[30px] pb-[60px]  max-[620px]:w-full max-[620px]:flex max-[620px]:flex-col max-[620px]:items-center max-[620px]:px-4">
               <ul class="text-[18px] mb-[10px]  text-[#082680]">
                 <li class="font-bold text-[25px] pb-4">OBAVLJAMO:</li>
-                <li>- administrativne usluge</li>
-                <li>- kurirske usluge</li>
-                <li>- usluge prevođenja</li>
-                <li>- kupnja i prodaja robe</li>
-                <li>- djelatnost autopraonice</li>
-                <li class="pb-6">- izrada suvenira, uporabnih i ukrasnih predmeta</li>
+                <li>- čišćenje stanova i održavanje</li>
+                <li>- čišćenje poslovnih prostora i održavanje</li>
+                <li>- čišćenje zgrada</li>
+                <li>- čišćenje apartmana</li>
               </ul>
-              <router-link to="/aboutus"><button class="rounded-[50px] px-[26px] text-[15px] font-bold text-white bg-[#0431b8] leading-[48px] tracking-[2px]">Pogledaj Više</button></router-link> 
+              <router-link to="/aboutus"><button class="rounded-[50px] px-[26px] text-[15px] font-bold text-white bg-[#0431b8] leading-[48px] tracking-[2px] max-[620px]:mt-12">Pogledaj Više</button></router-link> 
             </div>
             <div class="w-[50%] max-[620px]:w-full">
               <img src="../../assets/home/misijakompanije-home.jpg" alt="" class="w-[100%] h-[100%] object-cover rounded-[5px]">
@@ -94,7 +92,7 @@
       <div class="flex w-[880px] justify-center flex-col items-center max-[1100px]:w-full max-[1100px]:px-8 max-[920px]:px-2">
         <div class="flex w-full justify-center items-center text-center flex-col">
             <p class="rubik-font text-[18px] font-semibold text-[#3A4268] flex gap-[1em] items-center"> <img src="../../assets/home/stars-aboutus-home.svg" alt="" class="w-[34px]">Kako radimo?</p>
-            <p class="text-[#082680] text-[36px] font-extrabold flex flex-col mt-[15px] text-center">Kako obavljamo posao <small class="font-normal mb-[14px]">izaberite nas!</small></p>
+            <p class="text-[#082680] text-[36px] font-extrabold flex flex-col mt-[15px] text-center">Kako obavljamo posao <small class="font-normal mb-[14px] pt-8">izaberite nas!</small></p>
         </div>
         <div class=" flex w-[1280px]  max-[1270px]:w-full  mt-12 justify-between px-4 max-[660px]:items-center max-[660px]:gap-[2em] max-[660px]:w-full max-[920px]:flex-col max-[920px]:justify-center max-[920px]:items-center max-[920px]:gap-20">
           <div class="mb-[3px] flex w-full justify-center flex-col items-center text-center max-[920px]:flex max-[920px]:flex-row   max-[920px]:justify-center max-[920px]:items-center max-[660px]:gap-[1em] max-[530px]:flex-col ">

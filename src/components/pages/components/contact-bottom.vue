@@ -6,7 +6,7 @@
         </div>
         <div class="text-[#082680] text-[36px] font-extrabold flex flex-col text-center  max-[640px]:flex max-[640px]:items-center max-[640px]:justify-center max-[302px]:px-2">
           Sve ostalo po dogovoru
-          <small class="font-normal mb-[14px]">kontaktirajte nas!</small>
+          <small class="font-normal mb-[14px] pt-8">kontaktirajte nas!</small>
           </div>
 
           <div class="w-[1280px] flex justify-between items-center pt-[30px] gap-[1em] max-[1300px]:w-full max-[1300px]:px-4 max-[870px]:flex-col max-[870px]:w-[70%] max-[440px]:w-full">
