@@ -8,7 +8,7 @@
                 </li>
                 <li class="text-[#C2D5E7] text-[14px]">
                     <p class="text-[24px] font-bold !text-white leading-relaxed max-[600px]:mt-8 max-[600px]:text-left">INFO:</p>
-                    <a href="tel:+385915078575" class="flex gap-[0.5em] my-4"><img src="../../../assets/navbar-footer/phone_footer.svg" alt="" class="w-[20px]">+385-92-188-7519</a>
+                    <a href="tel:+385915078575" class="flex gap-[0.5em] my-4"><img src="../../../assets/navbar-footer/phone_footer.svg" alt="" class="w-[20px]">+385-91-507-8575</a>
                     <a href="mailto:cleaning.club78@gmail.com" class="flex gap-[0.5em]"><img src="../../../assets/navbar-footer/mail_footer.svg" alt="" class="w-[20px]">cleaning.club78@gmail.com</a>
                     <div class="flex pt-4 gap-4">
                        <a href=""><img src="../../../assets/navbar-footer/facebook_footer.svg" alt="" class="w-[30px] h-[30px] "></a> 

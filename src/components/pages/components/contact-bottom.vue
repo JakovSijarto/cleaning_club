@@ -14,7 +14,7 @@
               <img src="../../../assets/contact/telephonecall_contact.svg" alt="" class="mr-[16px]">
               <div class="flex flex-col">
                 <p class="text-[20px] text-[#082680] mb-[10px] font-bold">Telefonski Broj</p>
-                <p class="text-[14px] text-[#3A4268]">+385-92-188-7519</p> 
+                <p class="text-[14px] text-[#3A4268]">+385-91-507-8575</p> 
               </div>
             </div>
             <div class="p-[15px] w-[100%] flex items-center border h-full py-[30px] hover-class" style="transition:0.2s all ease-in">
