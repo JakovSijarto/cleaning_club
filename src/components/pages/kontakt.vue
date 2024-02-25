@@ -2,13 +2,13 @@
     <div class="pt-[112px] max-[571px]:pt-[81px]">   
         <div class=" w-full flex justify-center items-center bg-black">
             <img src="../../assets/home/herosec_about_kontakt.jpg" alt="" class="h-[300px] w-full object-cover opacity-[0.4]">
-            <p class="absolute text-[60px] font-bold text-white max-[310px]:text-[40px] tracking-[5px]">KONTAKT</p>
+            <p class="absolute text-[60px] font-bold text-white max-[310px]:text-[40px] tracking-[5px] text-center">{{ $t("kontakt.naslov1") }}</p>
         </div>
     </div>
 
     <section class="h-[50em] w-full relative z-3 flex justify-center items-center max-[630px]:h-[60em]">
         <form ref="form" @submit.prevent="sendEmail " class="w-[1200px] mx-8 max-[1350px]:w-full">
-          <p class="font-bold mb-[50px] leading-[3rem] text-[#3A4268] text-[1.5em] font-extrabold max-[330px]:text-[1.3em] ">Obratite nam se s povjerenjem.</p>
+          <p class="font-bold mb-[50px] leading-[3rem] text-[#3A4268] text-[1.5em] font-extrabold max-[330px]:text-[1.3em] ">{{ $t("kontakt.naslov") }}</p>
           <div class="flex justify-between max-[630px]:flex-col ">
             <div class="w-[49%] max-[630px]:w-full">
               <input type="text" name="ime" placeholder="Ime" required v-model="ime">

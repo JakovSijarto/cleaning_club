@@ -18,4 +18,10 @@ import footer_page from "./pages/navbar_footer/footer.vue"
   .router-link-active{
   border-bottom: 1px solid rgb(0, 0, 0);
 }}
+.fade-enter-from, .fade-leave-to{
+  opacity:0;
+}
+.fade-enter-active,.fade-leave-active{
+  transition: opacity 0.3s ease-out;
+}
 </style>

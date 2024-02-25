@@ -1,0 +1,91 @@
+{
+    "locale":{
+        "en":"ENG",
+        "hr":"HR"
+    },
+    "nav": {
+        "home": "Početna",
+        "about": "O nama",
+        "kontakt": "Kontakt"
+    },
+    "home":{
+        "usluga":"Zatražite uslugu",
+        "button_usluge":"Pošalji",
+        "naslov_hero_veliki":"Nudimo Vam usluge profesionalnog čišćenja",
+        "naslov_hero_mali":"Cleaning club je profesionalan u industriji čišćenja pružanjem vrhunskih usluga čišćenja i pratećih usluga",
+        "hero_button":"Naše usluge",
+        "service_button1":"POŠALJI!",
+        "service_button2":"ODMAH!",
+
+        "info1_naslov1":"Zašto izabrati nas?",
+        "info1_naslov2":"Zbog naše kvalitete",
+        "info1_naslov3":"izaberite nas!",
+        "info1_naslov4":"Naša agencija ima najbolje ljude i proizvode za čiščenje. Ovo su neke od stvari kojih se uvijek držimo.",
+        "info1_slide1_naslov1":"Naše usluge!",
+        "info1_slide1_naslov2":"Čiščenje stanova, kuća, poslovnih prostora, ureda, hotela, zdravstvenih ustanova (ordinacije i poliklinike) i apartmana",
+        
+        "info_slide_button":"Pogledaj Više",
+
+        "info1_slide2_naslov1":"OBAVLJAMO:",
+        "info1_slide2_opis1":"- čišćenje stanova i održavanje",
+        "info1_slide2_opis2":"- čišćenje poslovnih prostora i održavanje",
+        "info1_slide2_opis3":"- čišćenje zgrada",
+        "info1_slide2_opis4":"- čišćenje apartmana",
+
+        "info1_slide3_naslov1":"Što želimo za Vas!",
+        "info1_slide3_naslov2":"Uz našu pomoć imati ćete više slobodnog vremena uz čiščenje prema Vašim potrebama",
+
+        "info2_naslov1":"Kako radimo?",
+        "info2_naslov2":"Kako obavljamo posao",
+        "info2_naslov3":"izaberite nas!",
+        "info2_about1_naslov":"Zatražite čiščenje",
+        "info2_about1_opis":"Stupimo u kontakt da razjasnimo Vaše potrebe.",
+
+        "info2_about2_naslov":"Dobite čiščenje",
+        "info2_about2_opis":"Razjrešimo Vaše nedostatke i potrebe, napravimo sav posao.",
+
+        "info2_about3_naslov":"Platite i dobite račun!",
+        "info2_about3_opis":"Plaćanje na kraju, nakon što ste potpuno zadovoljni sa našom uslugom.",
+
+        "info2_button":"Javite nam se"
+    },
+    "aboutus_service":{
+        "naslov":"Naše usluge",
+        "naslov2":"Trebate čišćenje?",
+        "naslov3":"pozovite nas!",
+        "naslov4":"Nazovite nas i na Vašoj smo adresi. Prepustite čišćenje Vašeg doma profesionalcima.",
+        "opis1_naslov":"Naše usluge",
+        "opis1_opis":"Čiščenje stanova, kuća, poslovnih prostora, ureda, hotela, zdravstvenih ustanova (ordinacije i poliklinike) i apartmana",
+
+        "opis2_naslov":"Odvoz nepotrebnih materijala",
+        "opis2_opis":"Na usluzi smo i maknuti sav nepotreban materijal iz Vašeg doma",
+
+        "opis3_naslov":"Dodatne informacije",
+        "opis3_opis":"Čišćenje stanova i održavanje, Čišćenje poslovnih prostora i održavanje, Čišćenje zgrada, Čišćenje apartmana"
+    },
+    "contact-bottom":{
+        "naslov":"Informacije",
+        "naslov2":"Sve ostalo po dogovoru",
+        "naslov3":"kontaktirajte nas!",
+        "button1_naslov":"Telefonski Broj",
+        "button2_naslov":"Mail Adresa"
+    },
+    "footer":{
+        "opis1":"Mi smo ",
+        "opis2":"Radimo sa strašću prihvaćanja izazova"
+    },
+    "aboutus":{
+        "naslov":"O NAMA",
+        "naslov1":"TREBATE ČIŠĆENJE?",
+        "naslov_opis1":"Javite nam se i na Vašoj smo adresi.",
+        "naslov_opis2":"Prepustite čišćenje Vašeg doma profesionalcima!",
+        "naslov2":"Usluge koje nudimo",
+        "naslov3":"Zbog naše kvalitete",
+        "naslov4":"izaberite nas!",
+        "opis":"Uz našu pomoć imati ćete više slobodnog vremena uz čišćenje prema Vašim potrebama!"
+    },
+    "kontakt":{
+        "naslov":"Obratite nam se s povjerenjem.",
+        "naslov1":"KONTAKT"
+    }
+}

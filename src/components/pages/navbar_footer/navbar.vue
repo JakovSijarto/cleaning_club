@@ -25,9 +25,10 @@
                   <img src="../../../assets/logo.png" alt="" class="w-[60px] h-full object-cover">
                 </p>
                 <ul class="flex w-full justify-end text-white font-semibold max-[571px]:hidden gap-[2em]">
-                  <router-link to="/"><li>Home</li></router-link>
-                    <router-link to="/aboutus"><li>O nama</li></router-link>
-                    <router-link to="/kontakt"><li>Kontakt</li></router-link>
+                  <router-link to="/"><li>{{ $t("nav.home") }}</li></router-link>
+                    <router-link to="/aboutus"><li>{{ $t("nav.about") }}</li></router-link>
+                    <router-link to="/kontakt"><li>{{ $t("nav.kontakt") }}</li></router-link>
+                    <li><langSwitch></langSwitch></li>
                 </ul>
                 
                 <ul
@@ -80,14 +81,15 @@
           </li>
 
           <li class="mt-[2em]" id="navbar_naslovnica">
-            <router-link class="hamburger-text" to="/">Home</router-link>
+            <router-link class="hamburger-text" to="/">{{ $t("nav.home") }}</router-link>
           </li>
           <li class="" id="navbar_naslovnica">
-            <router-link class="hamburger-text" to="/aboutus">O nama</router-link>
+            <router-link class="hamburger-text" to="/aboutus">{{ $t("nav.about") }}</router-link>
           </li>
           <li class="" id="navbar_naslovnica">
-            <router-link class="hamburger-text" to="/kontakt">Kontakt</router-link>
+            <router-link class="hamburger-text" to="/kontakt">{{ $t("nav.kontakt") }}</router-link>
           </li>
+          <li><langSwitch></langSwitch></li>
         </ul>
         
             </div>
@@ -96,7 +98,10 @@
 </template>
 
 <script>
+import langSwitch from "../langSwitch.vue";
+
 export default {
+  components: {langSwitch},
   data() {
     return {
       isActive: false,

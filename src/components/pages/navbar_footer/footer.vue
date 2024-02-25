@@ -3,8 +3,8 @@
         <div class="w-[1280px] ">
             <ul class="w-full flex justify-between items-center px-4 max-[600px]:flex-col max-[600px]:px-2">
                 <li class="text-[#C2D5E7]">
-                    <p class="text-[24px] font-bold !text-white leading-relaxed">Mi smo <span class="text-[#007CFB]">Cleaning Club!</span></p>
-                    <p class="my-4 w-[250px]">Radimo sa strašću prihvaćanja izazova</p>
+                    <p class="text-[24px] font-bold !text-white leading-relaxed">{{ $t("footer.opis1") }}<span class="text-[#007CFB]">Cleaning Club!</span></p>
+                    <p class="my-4 w-[250px]">{{ $t("footer.opis2") }}</p>
                 </li>
                 <li class="text-[#C2D5E7] text-[14px]">
                     <p class="text-[24px] font-bold !text-white leading-relaxed max-[600px]:mt-8 max-[600px]:text-left">INFO:</p>

@@ -1,0 +1,94 @@
+{
+    "locale":{
+        "en":"ENG",
+        "hr":"HR"
+    },
+    "nav": {
+        "home": "Home",
+        "about": "About us",
+        "kontakt": "Contact"
+    },
+    "home":{
+        "usluga":"Ask for a service",
+        "button_usluge":"Send",
+        "naslov_hero_veliki":"We offer professional cleaning services",
+        "naslov_hero_mali":"Cleaning club is professional in the cleaning industry by providing top quality cleaning and support services",
+        "hero_button":"Services",
+        "service_button1":"SEND!",
+        "service_button2":"NOW!",
+
+        "info1_naslov1":"Why choose us?",
+        "info1_naslov2":"Because of our quality",
+        "info1_naslov3":"choose us!",
+        "info1_naslov4":"Our agency has the best people and cleaning products. These are some of the things we always stick to.",
+        "info1_slide1_naslov":"Services",
+        "info1_slide1_naslov1":"Our services!",
+        "info1_slide1_naslov2":"Cleaning of apartments, houses, business premises, offices, hotels, health institutions (practices and polyclinics) and apartments",
+        
+        "info_slide_button":"Look more",
+
+        "info1_slide2_naslov":"Additional information",
+        "info1_slide2_naslov1":"WHAT WE DO:",
+        "info1_slide2_opis1":"- apartment cleaning and maintenance",
+        "info1_slide2_opis2":"- cleaning of business premises and maintenance",
+        "info1_slide2_opis3":"- cleaning of buildings",
+        "info1_slide2_opis4":"- apartment cleaning",
+
+        "info1_slide3_naslov":"Our Vision",
+        "info1_slide3_naslov1":"What we want for you!",
+        "info1_slide3_naslov2":"With our help, you will have more free time with cleaning according to your needs",
+
+        "info2_naslov1":"How we work?",
+        "info2_naslov2":"We get the job done!",
+        "info2_naslov3":"Choose us!",
+        "info2_about1_naslov":"Ask for cleaning",
+        "info2_about1_opis":"Let's get in touch to clarify your needs.",
+
+        "info2_about2_naslov":"Get cleaning",
+        "info2_about2_opis":"Let us resolve your shortcomings and needs, let us do all the work.",
+
+        "info2_about3_naslov":"Pay and get an invoice!",
+        "info2_about3_opis":"Payment at the end, after you are completely satisfied with our service.",
+
+        "info2_button":"Contact us"
+    },
+    "aboutus_service":{
+        "naslov":"Our services",
+        "naslov2":"Need cleaning?",
+        "naslov3":"call us!",
+        "naslov4":"Call us and we are at your address. Leave the cleaning of your home to professionals.",
+        "opis1_naslov":"Our services",
+        "opis1_opis":"Cleaning of apartments, houses, business premises, offices, hotels, health institutions (practices and polyclinics) and apartments",
+
+        "opis2_naslov":"Removal of unnecessary materials",
+        "opis2_opis":"We are also at your service to remove all unnecessary material from your home",
+
+        "opis3_naslov":"Additional information",
+        "opis3_opis":"Cleaning of apartments and maintenance, Cleaning of business premises and maintenance, Cleaning of buildings, Cleaning of apartments"
+    },
+    "contact-bottom":{
+        "naslov":"Information",
+        "naslov2":"Everything else by agreement",
+        "naslov3":"contact us!",
+        "button1_naslov":"Telephone",
+        "button2_naslov":"Email Adress"
+    },
+    "footer":{
+        "opis1":"We are ",
+        "opis2":"We work with a passion for accepting challenges"
+    },
+    "aboutus":{
+        "naslov":"ABOUT US",
+        "naslov1":"NEED CLEANING?",
+        "naslov_opis1":"We work with a passion",
+        "naslov_opis2":"for accepting challenges!",
+        "naslov2":"Services we offer",
+        "naslov3":"Because of our quality",
+        "naslov4":"choose us!",
+        "opis":"With our help, you will have more free time with cleaning according to your needs!"
+    },
+    "kontakt":{
+        "naslov":"Contact us with confidence.",
+        "naslov1":"CONTACT"
+    }
+}

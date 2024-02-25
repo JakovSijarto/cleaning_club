@@ -4,30 +4,30 @@
         <div class="flex items-center justify-center flex-col pb-[25px]">
           <div class="flex gap-[1em] my-8 flex-row items-center">
           <img src="../../../assets/home/stars-aboutus-home.svg" alt="" class="w-[34px]">
-          <p class="rubik-font text-[18px] font-semibold text-[#3A4268]">Naše usluge</p>
+          <p class="rubik-font text-[18px] font-semibold text-[#3A4268]">{{ $t("aboutus_service.naslov") }}</p>
         </div>
         <div class="text-[#082680] text-[36px] font-extrabold flex flex-col text-center  max-[640px]:flex max-[640px]:items-center max-[640px]:justify-center max-[302px]:px-2">
-          Trebate čišćenje?
-          <small class="font-normal mb-[14px]">pozovite nas!</small>
-          <div class="text-center text-[16px] leading-[27px] text-[#3A4268] w-[600px] font-light mt-4 max-[640px]:w-[90%]">Nazovite nas i na Vašoj smo adresi. Prepustite čišćenje Vašeg doma profesionalcima.</div>
+          {{ $t("aboutus_service.naslov2") }}
+          <small class="font-normal mb-[14px]">{{ $t("aboutus_service.naslov3") }}</small>
+          <div class="text-center text-[16px] leading-[27px] text-[#3A4268] w-[600px] font-light mt-4 max-[640px]:w-[90%]">{{ $t("aboutus_service.naslov4") }}</div>
         </div>
         </div>
         <div class="flex gap-[2em] mt-[3em]   max-[950px]:flex-col max-[950px]:justify-center max-[950px]:items-center">
           <div class="w-[340px] h-[320px] box-shadow-aboutus rounded-[10px] flex justify-center items-center flex-col text-center max-[1100px]:w-full max-[950px]:w-[90%] max-[320px]:h-[360px]">
             <img src="../../../assets/home/house-aboutus-home.svg" alt="" class="cssdottedborder mb-[14px]">
-            <p class="text-[#082680] text-[20px] font-bold pb-[17px] mb-[14px]  w-[80%]">Naše usluge</p>
-            <p class="w-[80%] rubik-font text-[#3A4268] text-[14px]">Čiščenje stanova, kuća, poslovnih prostora, ureda, hotela, zdrastvenih ustanova (ordinacije i poliklinike) i apartmana</p>
+            <p class="text-[#082680] text-[20px] font-bold pb-[17px] mb-[14px]  w-[80%]">{{ $t("aboutus_service.opis1_naslov") }}</p>
+            <p class="w-[80%] rubik-font text-[#3A4268] text-[14px]">{{ $t("aboutus_service.opis1_opis") }}</p>
           </div>
           <div class="w-[340px] h-[320px] box-shadow-aboutus rounded-[10px] flex justify-center items-center flex-col text-center max-[1100px]:w-full max-[950px]:w-[90%] max-[320px]:h-[360px]">
             <img src="../../../assets/home/plants-aboutus-home.svg" alt="" class="cssdottedborder mb-[14px]">
-            <p class="text-[#082680] text-[20px] font-bold pb-[17px] mb-[14px]  w-[80%]">Odvoz nepotrebnih materijala</p>
-            <p class="w-[80%] rubik-font text-[#3A4268] text-[14px]">Na usluzi smo i maknuti sav nepotreban materijal iz Vašeg doma</p>
+            <p class="text-[#082680] text-[20px] font-bold pb-[17px] mb-[14px]  w-[80%]">{{ $t("aboutus_service.opis2_naslov") }}</p>
+            <p class="w-[80%] rubik-font text-[#3A4268] text-[14px]">{{ $t("aboutus_service.opis2_opis") }}</p>
           </div>
           <div class="w-[340px] h-[320px] box-shadow-aboutus rounded-[10px] flex justify-center items-center flex-col text-center max-[1100px]:w-full max-[950px]:w-[90%] max-[320px]:h-[360px]">
             <img src="../../../assets/home/info-aboutus-home.svg" alt="" class="cssdottedborder mb-[14px]">
-            <p class="text-[#082680] text-[20px] font-bold pb-[17px] mb-[14px]  w-[80%]">Dodatne informacije</p>
+            <p class="text-[#082680] text-[20px] font-bold pb-[17px] mb-[14px]  w-[80%]">{{ $t("aboutus_service.opis3_naslov") }}</p>
             <p class="w-[80%] rubik-font text-[#3A4268] text-[14px]">
-              Čišćenje stanova i održavanje, Čišćenje poslovnih prostora i održavanje, Čišćenje zgrada, Čišćenje apartmana
+              {{ $t("aboutus_service.opis3_opis") }}
             </p>
           </div>
         </div>
