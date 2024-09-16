@@ -18,11 +18,7 @@
             <p class="text-[#082680] text-[20px] font-bold pb-[17px] mb-[14px]  w-[80%]">{{ $t("aboutus_service.opis1_naslov") }}</p>
             <p class="w-[80%] rubik-font text-[#3A4268] text-[14px]">{{ $t("aboutus_service.opis1_opis") }}</p>
           </div>
-          <div class="w-[340px] h-[320px] box-shadow-aboutus rounded-[10px] flex justify-center items-center flex-col text-center max-[1100px]:w-full max-[950px]:w-[90%] max-[320px]:h-[360px]">
-            <img src="../../../assets/home/plants-aboutus-home.svg" alt="" class="cssdottedborder mb-[14px]">
-            <p class="text-[#082680] text-[20px] font-bold pb-[17px] mb-[14px]  w-[80%]">{{ $t("aboutus_service.opis2_naslov") }}</p>
-            <p class="w-[80%] rubik-font text-[#3A4268] text-[14px]">{{ $t("aboutus_service.opis2_opis") }}</p>
-          </div>
+
           <div class="w-[340px] h-[320px] box-shadow-aboutus rounded-[10px] flex justify-center items-center flex-col text-center max-[1100px]:w-full max-[950px]:w-[90%] max-[320px]:h-[360px]">
             <img src="../../../assets/home/info-aboutus-home.svg" alt="" class="cssdottedborder mb-[14px]">
             <p class="text-[#082680] text-[20px] font-bold pb-[17px] mb-[14px]  w-[80%]">{{ $t("aboutus_service.opis3_naslov") }}</p>

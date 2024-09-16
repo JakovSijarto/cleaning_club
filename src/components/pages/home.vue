@@ -36,92 +36,91 @@
       <aboutussection/>  
     </div>
     
-
-    <div class="w-full flex justify-center items-center pt-[95px]">
-      <div class="flex w-[880px] justify-center flex-col items-center max-[1100px]:w-full max-[1100px]:px-8 max-[670px]:px-2">
-        <div class="flex w-full justify-between gap-[1em] items-center max-[670px]:flex-col">
-          <div class="max-[670px]:flex max-[670px]:flex-col max-[670px]:items-center">
-            <p class="rubik-font text-[18px] font-semibold text-[#3A4268] flex gap-[1em] items-center"> <img src="../../assets/home/stars-aboutus-home.svg" alt="" class="w-[34px]">{{ $t("home.info1_naslov1") }}</p>
-            <p class="text-[#082680] text-[36px] font-extrabold flex flex-col text-start mt-[15px] max-[670px]:text-center">{{ $t("home.info1_naslov2") }}<small class="font-normal mb-[14px]">{{ $t("home.info1_naslov3") }}</small></p>
-          </div>
-          <p class="w-[430px] text-[#3A4268] rubik-font max-[670px]:text-center max-[670px]:w-[90%]">{{ $t("home.info1_naslov4") }}</p>
-        </div>
-        <div class="w-[880px] flex justify-center item-center mt-[42px] max-[1100px]:w-full ">
-        <tabs class="mb-[10em] max-[620px]:mb-[20em]" :options="{ defaultTabHash: 'second-tab' }" >
-        <tab name="Usluge" class="flex h-[400px] max-[620px]:flex-col">
-            <div class="w-[50%] pt-[51px] max-[620px]:pt-[30px] pr-[30px] pb-[60px] pl-[40px] max-[620px]:w-full">
-              <p class="text-[29px] mb-[10px] font-bold text-[#082680]">{{ $t("home.info1_slide1_naslov1") }}</p>
-              <p class="mb-[36px] text-[#3A4268] rubik-font text-[15px]">{{ $t("home.info1_slide1_naslov2") }}</p>
-              <router-link to="/aboutus"><button class="rounded-[50px] px-[26px] text-[15px] font-bold text-white bg-[#0431b8] leading-[48px] tracking-[2px]">{{ $t("home.info_slide_button") }}</button></router-link> 
-            </div>
-            <div class="w-[50%] max-[620px]:w-full">
-              <img src="../../assets/home/nasafilozofija-home.jpg" alt="" class="w-[100%] h-[100%] object-cover rounded-[5px]">
-            </div>
-        </tab>
-        <tab name="Dodatne informacije" class="flex h-[400px] max-[620px]:flex-col ">
-          <div class="w-[50%] pt-[51px] pr-[30px] pb-[60px]  max-[620px]:w-full max-[620px]:flex max-[620px]:flex-col max-[620px]:items-center max-[620px]:px-4">
-              <ul class="text-[18px] mb-[10px]  text-[#082680]">
-                <li class="font-bold text-[25px] pb-4">{{ $t("home.info1_slide2_naslov1") }}</li>
-                <li>{{ $t("home.info1_slide2_opis1") }}</li>
-                <li>{{ $t("home.info1_slide2_opis2") }}</li>
-                <li>{{ $t("home.info1_slide2_opis3") }}</li>
-                <li>{{ $t("home.info1_slide2_opis4") }}</li>
-              </ul>
-              <router-link to="/aboutus"><button class="rounded-[50px] px-[26px] text-[15px] font-bold text-white bg-[#0431b8] leading-[48px] tracking-[2px] max-[620px]:mt-12">{{ $t("home.info_slide_button") }}</button></router-link> 
-            </div>
-            <div class="w-[50%] max-[620px]:w-full">
-              <img src="../../assets/home/misijakompanije-home.jpg" alt="" class="w-[100%] h-[100%] object-cover rounded-[5px]">
-            </div>
-        </tab>
-        <tab name="Naša Vizija" class="flex h-[400px] max-[620px]:flex-col">
-          <div class="w-[50%] pt-[51px] pr-[30px] pb-[60px] pl-[40px] max-[620px]:w-full">
-              <p class="text-[29px] mb-[10px] font-bold text-[#082680]">{{ $t("home.info1_slide3_naslov1") }}</p>
-              <p class="mb-[36px] text-[#3A4268] rubik-font text-[15px]">{{ $t("home.info1_slide3_naslov2") }}</p>
-             <router-link to="/aboutus"><button class="rounded-[50px] px-[26px] text-[15px] font-bold text-white bg-[#0431b8] leading-[48px] tracking-[2px]">{{ $t("home.info_slide_button") }}</button></router-link> 
-            </div>
-            <div class="w-[50%] max-[620px]:w-full">
-              <img src="../../assets/home/našavizija-home.jpg" alt="" class="w-[100%] h-[100%] object-cover rounded-[5px]">
-            </div>
-        </tab>
-    </tabs>
-</div>
+    <div class="flex justify-center items-center pt-[95px]">
+  <div class="flex flex-col items-center w-full max-w-[1200px] px-4">
+    <!-- Container for Title and Subtitles -->
+    <div class="flex w-full justify-between gap-[1em] items-center max-[1200px]:flex-col max-[1200px]:text-center">
+      <div class="max-[1200px]:flex max-[1200px]:flex-col max-[1200px]:items-center">
+        <p class="rubik-font text-[18px] font-semibold text-[#3A4268] flex gap-[1em] items-center"> 
+          <img src="../../assets/home/stars-aboutus-home.svg" alt="" class="w-[34px]">{{ $t("home.info1_naslov1") }}
+        </p>
+        <p class="text-[#082680] text-[36px] font-extrabold flex flex-col text-start mt-[15px] max-[1200px]:text-center">
+          {{ $t("home.info1_naslov2") }}
+          <small class="font-normal mb-[14px]">{{ $t("home.info1_naslov3") }}</small>
+        </p>
       </div>
+      <p class="w-[430px] text-[#3A4268] rubik-font max-[1200px]:w-[90%] max-[670px]:w-full">{{ $t("home.info1_naslov4") }}</p>
     </div>
     
-    <div class="w-full flex justify-center items-center py-18 pb-32 ">
-      <div class="flex w-[880px] justify-center flex-col items-center max-[1100px]:w-full max-[1100px]:px-8 max-[920px]:px-2">
-        <div class="flex w-full justify-center items-center text-center flex-col">
-            <p class="rubik-font text-[18px] font-semibold text-[#3A4268] flex gap-[1em] items-center"> <img src="../../assets/home/stars-aboutus-home.svg" alt="" class="w-[34px]">{{ $t("home.info2_naslov1") }}</p>
-            <p class="text-[#082680] text-[36px] font-extrabold flex flex-col mt-[15px] text-center">{{ $t("home.info2_naslov2") }} <small class="font-normal mb-[14px] pt-8">{{ $t("home.info2_naslov3") }}</small></p>
+    <!-- Container for Cards -->
+    <div class="flex max-[840px]:flex-col justify-center w-full gap-[2em] items-center mt-[42px] mb-[100px]">
+      <div class="bg-white border border-gray-200 rounded-lg h-[500px] max-[440px]:h-auto shadow dark:bg-gray-800 dark:border-gray-700 w-full max-w-[400px]">
+        <a href="#">
+          <img class="rounded-t-lg w-full" src="../../assets/home/nasafilozofija-home.jpg" alt="" />
+        </a>
+        <div class="p-5">
+          <a href="#">
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Tapicirani namještaj i tepih</h5>
+          </a>
+          <ul class="mb-3 font-normal text-white py-4">
+            <li>Kutna garnitura: <p>Mala:<b class="tracking-[1px] pl-2">45€</b></p><p>Velika:<b class="tracking-[1px] pl-2">55€</b></p></li>
+          </ul>        
+          <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+            Više
+            <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="" fill="none" viewBox="0 0 14 10">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+            </svg>
+          </a>
         </div>
-        <div class=" flex w-[1280px]  max-[1270px]:w-full  mt-12 justify-between px-4 max-[660px]:items-center max-[660px]:gap-[2em] max-[660px]:w-full max-[920px]:flex-col max-[920px]:justify-center max-[920px]:items-center max-[920px]:gap-20">
-          <div class="mb-[3px] flex w-full justify-center flex-col items-center text-center max-[920px]:flex max-[920px]:flex-row   max-[920px]:justify-center max-[920px]:items-center max-[660px]:gap-[1em] max-[530px]:flex-col ">
-              <div class="flex justify-center items-center bg-[#F1F3F8] w-[100px] h-[100px] mb-8  rounded-[50%] box-shadow-aboutusimg">
-                          <img src="../../assets/home/potražiagentra_home.svg" alt="" class="w-[50px]">
-                    </div>
-                    <p class="text-[#082680] text-[22px] font-bold py-[17px] max-[920px]:mx-4 max-[530px]:pb-0 max-[530px]:mb-0 ">{{ $t("home.info2_about1_naslov") }}</p>
-                    <p class="w-[60%]">{{ $t("home.info2_about1_opis") }}</p>
-            </div>
-
-            <div class="mb-[3px] text-center flex flex w-full justify-center flex-col items-center max-[920px]:flex max-[920px]:flex-row max-[660px]:gap-[1em] max-[920px]:justify-center max-[920px]:items-center max-[530px]:flex-col">
-              <div class="flex justify-center items-ccenter bg-[#F1F3F8] w-[100px] h-[100px] mb-8 rounded-[50%] box-shadow-aboutusimg">
-                          <img src="../../assets/home/target_home.svg" alt="" class="w-[50px]">
-                    </div>
-                    <p class="text-[#082680] text-[22px] font-bold py-[17px]  max-[920px]:mx-4 max-[530px]:pb-0 max-[530px]:mb-0 ">{{ $t("home.info2_about2_naslov") }}</p>
-                    <p class="w-[60%]">{{ $t("home.info2_about2_opis") }}</p>
-            </div>
-
-            <div class="mb-[3px] text-center flex flex w-full justify-center flex-col items-center max-[920px]:flex max-[920px]:flex-row max-[660px]:gap-[1em] max-[920px]:justify-center max-[920px]:items-center max-[530px]:flex-col">
-              <div class="flex justify-center items-center bg-[#F1F3F8] w-[100px] h-[100px] mb-8  rounded-[50%] box-shadow-aboutusimg">
-                          <img src="../../assets/home/calculator_home.svg" alt="" class="w-[50px]">
-                    </div>
-                    <p class="text-[#082680] text-[22px] font-bold py-[17px] max-[920px]:mx-4 max-[530px]:pb-0 max-[530px]:mb-0">{{ $t("home.info2_about3_naslov") }}</p>
-                    <p class="w-[60%]">{{ $t("home.info2_about3_opis") }}</p>
-            </div>
-        </div>
-        <router-link to="/kontakt" class="mt-[4em]"><button class="rounded-[50px] px-[26px] text-[15px] font-bold text-white bg-[#0431b8] leading-[48px] tracking-[2px]">{{ $t("home.info2_button") }}</button></router-link>
       </div>
+      <div class="bg-white border border-gray-200 rounded-lg h-[500px] max-[440px]:h-auto shadow dark:bg-gray-800 dark:border-gray-700 w-full max-w-[400px] mx-12">
+        <a href="#">
+          <img class="rounded-t-lg w-full" src="../../assets/home/nasafilozofija-home.jpg" alt="" />
+        </a>
+        <div class="p-5">
+          <a href="#">
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Čiščenje stanova i kuća </h5>
+          </a>
+          <ul class="mb-3 font-normal text-white py-4">
+            <li>Čišćenje:<b class="tracking-[1px] pl-2">13€/h</b></li>
+            <li>Generalno čišćenje:<b class="tracking-[1px] pl-2">4€/m2</b></li>
+            <li>Prozori:<b class="tracking-[1px] pl-2">2€/m2</b></li>
+          </ul>        
+          <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+            Više
+            <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="" fill="none" viewBox="0 0 14 10">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div class="bg-white border border-gray-200 h-[500px] max-[440px]:h-auto rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 w-full max-w-[400px]">
+        <a href="#">
+          <img class="rounded-t-lg w-full" src="../../assets/home/nasafilozofija-home.jpg" alt="" />
+        </a>
+        <div class="p-5">
+          <a href="#">
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Čišćenje nakon adaptacije i građevinskih radova</h5>
+          </a>
+          <ul class="mb-3 font-normal text-white py-4">
+            <li>Prostor do 500m2:<b class="tracking-[1px] pl-2">5€/m2</b></li>
+            <li>Prostor veći od 500m2:<b class="tracking-[1px] pl-2">4€/m2</b></li>
+          </ul>       
+          <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+            Više
+            <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="" fill="none" viewBox="0 0 14 10">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Repeat the card structure for other items with the same responsive adjustments -->
+
     </div>
+  </div>
+</div>
+
 
        <kontaktbottom/>
   </div>
@@ -184,16 +183,17 @@ import aboutussection from "./components/aboutus-services.vue"
 }
 .tabs-component-tab-a{
   font-weight: 600;
-    font-size: 20px;
+    font-size: 14px;
     color: #0826808A;
- padding:0 20px 10px;
+ padding-right:60px;
  text-align: center;
- cursor: pointer;
+ cursor: pointer; 
+
 }
 .is-active{
  color:#082680;
 }
-@media only screen and (max-width: 620px) {
+@media only screen and (max-width: 967px) {
   .tabs-component-tabs{
   text-align: center;
   flex-direction: column;
@@ -204,6 +204,9 @@ import aboutussection from "./components/aboutus-services.vue"
  padding:20px 0;
  border-bottom: 1px solid #eaebec;
  width: 100%;
+}
+.tabs-component-tab-a{
+  padding-right:0px;
 }
 }
 .small-line::before{

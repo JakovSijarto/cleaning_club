@@ -7,10 +7,10 @@
                     </div>
                     <div class="w-full flex justify-start text-[14px] pl-4">
                         <img src="../../../assets/navbar-footer/phone_navbar.svg" alt="" class="w-[20px]">
-                        <a class="text-[#c2cdeb] nav-font pl-2" href="tel:+385915078575">+385 91 507 8575</a>
+                        <a class="text-[#c2cdeb] nav-font pl-2" href="tel:+38598249896">+385 98 249 896</a>
                         <div class="relative pl-[44px] ml-[44px] nav-before flex flex-row">
                             <img src="../../../assets/navbar-footer/mail_navbar.svg" alt="" class="w-[20px]">
-                            <a class="text-[#c2cdeb] nav-font pl-2" href="mailto:cleaning.club78@gmail.com">cleaning.club78@gmail.com</a>
+                            <a class="text-[#c2cdeb] nav-font pl-2" href="mailto:oposepatal@gmail.com">oposepatal@gmail.com</a>
                         </div>
                     </div>
                     <div class="flex justify-end">

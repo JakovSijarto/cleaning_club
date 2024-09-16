@@ -8,8 +8,8 @@
                 </li>
                 <li class="text-[#C2D5E7] text-[14px]">
                     <p class="text-[24px] font-bold !text-white leading-relaxed max-[600px]:mt-8 max-[600px]:text-left">INFO:</p>
-                    <a href="tel:+385915078575" class="flex gap-[0.5em] my-4"><img src="../../../assets/navbar-footer/phone_footer.svg" alt="" class="w-[20px]">+385-91-507-8575</a>
-                    <a href="mailto:cleaning.club78@gmail.com" class="flex gap-[0.5em]"><img src="../../../assets/navbar-footer/mail_footer.svg" alt="" class="w-[20px]">cleaning.club78@gmail.com</a>
+                    <a href="tel:+38598249896" class="flex gap-[0.5em] my-4"><img src="../../../assets/navbar-footer/phone_footer.svg" alt="" class="w-[20px]">+385 98 249 896</a>
+                    <a href="mailto:oposepatal@gmail.com" class="flex gap-[0.5em]"><img src="../../../assets/navbar-footer/mail_footer.svg" alt="" class="w-[20px]">oposepatal@gmail.com</a>
                     <div class="flex pt-4 gap-4">
                        <a href=""><img src="../../../assets/navbar-footer/facebook_footer.svg" alt="" class="w-[30px] h-[30px] "></a> 
                        <a href="https://www.instagram.com/cleaning.club78/"><img src="../../../assets/navbar-footer/instagram_footer.svg" alt="" class="w-[30px] h-[30px]"></a> 
@@ -20,7 +20,7 @@
     </div>
     <div class="w-full bg-[#1a1a1a] flex items-center ">
         <div class="flex justify-center  items-center w-full text-white py-[5px]  max-[460px]:flex  max-[460px]:flex-col  max-[460px]:justify-center">
-            Copyright ©2024 Designed by <a href="https://agencycroatia.com/#/" class="pl-[5px] font-bold">NewAge</a>
+            Copyright ©2024 Designed by <a href="https://newagehr.eu/" class="pl-[5px] font-bold">NewAge</a>
         </div>
     </div>
 </template>

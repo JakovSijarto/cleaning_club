@@ -21,16 +21,6 @@
         "info1_naslov2":"Zbog naše kvalitete",
         "info1_naslov3":"izaberite nas!",
         "info1_naslov4":"Naša agencija ima najbolje ljude i proizvode za čiščenje. Ovo su neke od stvari kojih se uvijek držimo.",
-        "info1_slide1_naslov1":"Naše usluge!",
-        "info1_slide1_naslov2":"Čiščenje stanova, kuća, poslovnih prostora, ureda, hotela, zdravstvenih ustanova (ordinacije i poliklinike) i apartmana",
-        
-        "info_slide_button":"Pogledaj Više",
-
-        "info1_slide2_naslov1":"OBAVLJAMO:",
-        "info1_slide2_opis1":"- čišćenje stanova i održavanje",
-        "info1_slide2_opis2":"- čišćenje poslovnih prostora i održavanje",
-        "info1_slide2_opis3":"- čišćenje zgrada",
-        "info1_slide2_opis4":"- čišćenje apartmana",
 
         "info1_slide3_naslov1":"Što želimo za Vas!",
         "info1_slide3_naslov2":"Uz našu pomoć imati ćete više slobodnog vremena uz čiščenje prema Vašim potrebama",
@@ -55,13 +45,13 @@
         "naslov3":"pozovite nas!",
         "naslov4":"Nazovite nas i na Vašoj smo adresi. Prepustite čišćenje Vašeg doma profesionalcima.",
         "opis1_naslov":"Naše usluge",
-        "opis1_opis":"Čiščenje stanova, kuća, poslovnih prostora, ureda, hotela, zdravstvenih ustanova (ordinacije i poliklinike) i apartmana",
+        "opis1_opis":"Čišćenje stanova i održavanje, Čišćenje poslovnih prostora i održavanje, Čišćenje zgrada, Čišćenje apartmana",
 
         "opis2_naslov":"Odvoz nepotrebnih materijala",
         "opis2_opis":"Na usluzi smo i maknuti sav nepotreban materijal iz Vašeg doma",
 
-        "opis3_naslov":"Dodatne informacije",
-        "opis3_opis":"Čišćenje stanova i održavanje, Čišćenje poslovnih prostora i održavanje, Čišćenje zgrada, Čišćenje apartmana"
+        "opis3_naslov":"Ostale usluge",
+        "opis3_opis":"Čišćenje objekta novogradnje i objekta nakon renovacije, dubinsko čišćenje tapiciranog namještaja i tepiha"
     },
     "contact-bottom":{
         "naslov":"Informacije",
