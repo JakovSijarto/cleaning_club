@@ -19,9 +19,11 @@
             <input type="text" required name="email" v-model="email" class="mb-[18px] h-[46px] bg-[#007CFB] border border-[white] py-[6px] px-[22px] text-[15px] w-full text-white rounded-[5px]" placeholder="Email*">
             <select required class="mb-[18px] h-[46px] bg-[#007CFB] border border-[white] py-[6px] px-[22px] text-[15px] w-full text-white rounded-[5px]">
                 <option value="" disabled selected hidden>Pick service*</option>
-                <option value="Čiśćenje privatnih stanova/kuća" name="usluga">Čiśćenje privatnih stanova/kuća</option>
-                <option value="Čiśćenje okućnice" name="usluga">Čiśćenje okućnice</option>
-                <option value="Odvoz nepotrebnog materijala" name="usluga">Odvoz nepotrebnog materijala</option>
+                <option value="Dubisnko čišcenje tapiciranog namještaja i tepiha" name="usluga">Dubisnko čišcenje tapiciranog namještaja i tepiha</option>
+                <option value="Čišcenje stanova i kuća" name="usluga">Čišcenje stanova i kuća</option>
+                <option value="Čišcenje nakon adaptacije i gtađevinski radova" name="usluga">Čišcenje nakon adaptacije i gtađevinski radova</option>
+                <option value="Čišćenje poslovnih prostora, ureda, firmi, ordinacija...(po dogovoru)" name="usluga">Čišćenje poslovnih prostora, ureda, firmi, ordinacija...(po dogovoru)</option>
+                <option value="Ostalo" name="usluga">Ostalo...</option>
             </select>
             <textarea name="poruka" id="" v-model="poruka" class="mb-[18px] h-[100px] max-h-[100px] bg-[#007CFB] border border-[white] py-[15px] px-[22px] text-[15px] w-full text-white rounded-[5px] " placeholder="Message"></textarea>
             <button class="button" id="button-7" type="submit" value="Send">
@@ -53,10 +55,10 @@
     </div>
     
     <!-- Container for Cards -->
-    <div class="flex max-[840px]:flex-col justify-center w-full gap-[2em] items-center mt-[42px] mb-[100px]">
+    <div class="flex max-[840px]:flex-col justify-center w-full gap-[2em] items-center mt-[42px] mb-[100px] max-[850px]:mb-[20px]">
       <div class="bg-white border border-gray-200 rounded-lg h-[500px] max-[440px]:h-auto shadow dark:bg-gray-800 dark:border-gray-700 w-full max-w-[400px]">
         <a href="#">
-          <img class="rounded-t-lg w-full" src="../../assets/home/nasafilozofija-home.jpg" alt="" />
+          <img class="rounded-t-lg w-full" src="../../assets/home/1.jpg" alt="" />
         </a>
         <div class="p-5">
           <a href="#">
@@ -65,63 +67,107 @@
           <ul class="mb-3 font-normal text-white py-4">
             <li>Kutna garnitura: <p>Mala:<b class="tracking-[1px] pl-2">45€</b></p><p>Velika:<b class="tracking-[1px] pl-2">55€</b></p></li>
           </ul>        
-          <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-            Više
+          <router-link to="/kontakt" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+            Javite se
             <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="" fill="none" viewBox="0 0 14 10">
               <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
             </svg>
-          </a>
+          </router-link>
         </div>
       </div>
       <div class="bg-white border border-gray-200 rounded-lg h-[500px] max-[440px]:h-auto shadow dark:bg-gray-800 dark:border-gray-700 w-full max-w-[400px] mx-12">
-        <a href="#">
-          <img class="rounded-t-lg w-full" src="../../assets/home/nasafilozofija-home.jpg" alt="" />
-        </a>
+        <div>
+          <img class="rounded-t-lg w-full" src="../../assets/home/2.jpg" alt="" />
+        </div>
         <div class="p-5">
-          <a href="#">
+          <div>
             <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Čiščenje stanova i kuća </h5>
-          </a>
-          <ul class="mb-3 font-normal text-white py-4">
+          </div>
+          <ul class="mb-3 font-normal text-white py-4 pt-12 max-[850px]:pt-4">
             <li>Čišćenje:<b class="tracking-[1px] pl-2">13€/h</b></li>
             <li>Generalno čišćenje:<b class="tracking-[1px] pl-2">4€/m2</b></li>
             <li>Prozori:<b class="tracking-[1px] pl-2">2€/m2</b></li>
           </ul>        
-          <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-            Više
+          <router-link to="/kontakt" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+            Javite se
             <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="" fill="none" viewBox="0 0 14 10">
               <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
             </svg>
-          </a>
+          </router-link>
         </div>
       </div>
       <div class="bg-white border border-gray-200 h-[500px] max-[440px]:h-auto rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 w-full max-w-[400px]">
-        <a href="#">
-          <img class="rounded-t-lg w-full" src="../../assets/home/nasafilozofija-home.jpg" alt="" />
-        </a>
+        <div>
+          <img class="rounded-t-lg w-full" src="../../assets/home/3.jpg" alt="" />
+        </div>
         <div class="p-5">
-          <a href="#">
+          <div>
             <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Čišćenje nakon adaptacije i građevinskih radova</h5>
-          </a>
+          </div>
           <ul class="mb-3 font-normal text-white py-4">
             <li>Prostor do 500m2:<b class="tracking-[1px] pl-2">5€/m2</b></li>
             <li>Prostor veći od 500m2:<b class="tracking-[1px] pl-2">4€/m2</b></li>
           </ul>       
-          <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-            Više
+          <router-link to="/kontakt" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+            Javite se
             <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="" fill="none" viewBox="0 0 14 10">
               <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
             </svg>
-          </a>
+          </router-link>
         </div>
       </div>
 
-      <!-- Repeat the card structure for other items with the same responsive adjustments -->
-
     </div>
+    <div class="flex flex-row pb-12 w-[80%] justify-between gap-5 max-[600px]:flex-col max-[600px]:w-full max-[600px]:items-center">
+      <div class="bg-white border border-gray-200 h-auto max-w-[400px] rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 w-full">
+  <div>
+    <img class="rounded-t-lg w-full" src="../../assets/home/4.jpg" alt="" />
+  </div>
+  <div class="p-5">
+    <div>
+      <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Namještaj:</h5>
+    </div>
+    <ul class="mb-3 font-normal text-white py-4">
+      <li class="flex justify-between">Trosjed :<b class="tracking-[1px] pl-2">35€</b></li>
+      <li class="flex justify-between">Dvosjed:<b class="tracking-[1px] pl-2">30€</b></li>
+      <li class="flex justify-between">Fotelja:<b class="tracking-[1px] pl-2">15€</b></li>
+      <li class="flex justify-between">Tabure:<b class="tracking-[1px] pl-2">10€</b></li>
+      <li class="flex justify-between">Madrac 1 osoba:<b class="tracking-[1px] pl-2">15€</b></li>
+      <li class="flex justify-between">Bračni madrac:<b class="tracking-[1px] pl-2">30€</b></li>
+      <li class="flex justify-between">Box krevet sa madracem:<b class="tracking-[1px] pl-2">45€</b></li>
+      <li class="flex justify-between">Tepih:<b class="tracking-[1px] pl-2">4€/m2</b></li>
+    </ul>       
+    <router-link to="/kontakt" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+      Javite se
+      <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="" fill="none" viewBox="0 0 14 10">
+        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+      </svg>
+    </router-link>
   </div>
 </div>
 
-
+      <div class="bg-white border border-gray-200 h-[500px] max-[440px]:h-auto rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 w-full max-w-[400px]">
+        <div>
+          <img class="rounded-t-lg w-full" src="../../assets/home/nasafilozofija-home.jpg" alt="" />
+        </div>
+        <div class="p-5">
+          <div>
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Ostalo</h5>
+          </div>
+          <ul class="mb-3 font-normal text-white py-4">
+            <li>Čišćenje poslovnih prostora, ureda, firmi, ordinacija po dogovoru</li>
+          </ul>       
+          <router-link to="/kontakt" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+            Javite se
+            <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="" fill="none" viewBox="0 0 14 10">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+            </svg>
+          </router-link>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
        <kontaktbottom/>
   </div>
 </template>

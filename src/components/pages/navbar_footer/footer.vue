@@ -3,17 +3,13 @@
         <div class="w-[1280px] ">
             <ul class="w-full flex justify-between items-center px-4 max-[600px]:flex-col max-[600px]:px-2">
                 <li class="text-[#C2D5E7]">
-                    <p class="text-[24px] font-bold !text-white leading-relaxed">{{ $t("footer.opis1") }}<span class="text-[#007CFB]">Cleaning Club!</span></p>
+                    <p class="text-[24px] font-bold !text-white leading-relaxed">{{ $t("footer.opis1") }}<span class="text-[#007CFB]">Patal cleaning!</span></p>
                     <p class="my-4 w-[250px]">{{ $t("footer.opis2") }}</p>
                 </li>
                 <li class="text-[#C2D5E7] text-[14px]">
                     <p class="text-[24px] font-bold !text-white leading-relaxed max-[600px]:mt-8 max-[600px]:text-left">INFO:</p>
-                    <a href="tel:+38598249896" class="flex gap-[0.5em] my-4"><img src="../../../assets/navbar-footer/phone_footer.svg" alt="" class="w-[20px]">+385 98 249 896</a>
+                    <span class="flex flex-row items-center"><a href="tel:+38598249896" class="flex items-center gap-[0.5em] my-4"><img src="../../../assets/navbar-footer/phone_footer.svg" alt="" class="w-[20px]">+385 98 249 896</a> <p class="px-4">/</p><a class="text-[#c2cdeb] nav-font" href="tel:+38598342314">+385 98 342 314</a></span>
                     <a href="mailto:oposepatal@gmail.com" class="flex gap-[0.5em]"><img src="../../../assets/navbar-footer/mail_footer.svg" alt="" class="w-[20px]">oposepatal@gmail.com</a>
-                    <div class="flex pt-4 gap-4">
-                       <a href=""><img src="../../../assets/navbar-footer/facebook_footer.svg" alt="" class="w-[30px] h-[30px] "></a> 
-                       <a href="https://www.instagram.com/cleaning.club78/"><img src="../../../assets/navbar-footer/instagram_footer.svg" alt="" class="w-[30px] h-[30px]"></a> 
-                    </div>
                 </li>
             </ul>
         </div>

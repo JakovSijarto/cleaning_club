@@ -10,20 +10,19 @@
           </div>
 
           <div class="w-[1280px] flex justify-between items-center pt-[30px] gap-[1em] max-[1300px]:w-full max-[1300px]:px-4 max-[870px]:flex-col max-[870px]:w-[70%] max-[440px]:w-full">
-            <div class="p-[15px] w-[100%] flex items-center border h-full py-[30px] hover-class" style="transition:0.2s all ease-in">
+            <a href="tel:+38598249896" class="p-[15px] w-[100%] flex items-center border h-full py-[30px] hover-class" style="transition:0.2s all ease-in">
               <img src="../../../assets/contact/telephonecall_contact.svg" alt="" class="mr-[16px]">
-              <div class="flex flex-col">
-                <p class="text-[20px] text-[#082680] mb-[10px] font-bold">{{ $t("contact-bottom.button1_naslov") }}</p>
-                <p class="text-[14px] text-[#3A4268]">+385-91-507-8575</p> 
+              <div class="flex flex-col" >
+                <p class="text-[20px] text-[#082680] font-bold">{{ $t("contact-bottom.button1_naslov") }}</p>
               </div>
-            </div>
-            <div class="p-[15px] w-[100%] flex items-center border h-full py-[30px] hover-class" style="transition:0.2s all ease-in">
+            </a>
+            <a href="mailto:oposepatal@gmail.com" class="p-[15px] w-[100%] flex items-center border h-full py-[30px] hover-class" style="transition:0.2s all ease-in">
               <img src="../../../assets/contact/mail_contact.svg" alt="" class="mr-[16px]">
-              <div class="flex flex-col ">
-                <p class="text-[20px] text-[#082680] mb-[10px] font-bold">{{ $t("contact-bottom.button2_naslov") }}</p>
-                <p class="text-[12px] text-[#3A4268] max-[310px]:text-[10px]">cleaning.club78@gmail.com</p> 
+              <div class="flex flex-col " >
+                <p class="text-[20px] text-[#082680] mb-[10px] max-[500px]:mb-0 font-bold">{{ $t("contact-bottom.button2_naslov") }}</p>
+                <p class="text-[#3A4268] nav-font max-[500px]:hidden" >oposepatal@gmail.com</p>
               </div>
-            </div>
+            </a>
           </div>
         </div>
 </template>

@@ -15,9 +15,12 @@
             </div>
             <select required name="usluga" class="w-[49%] max-[630px]:w-full border-b-2 border-[#3A4268] py-[15px] max-[630px]:pt-[25px]">
                 <option value="" disabled selected hidden>Izaberi uslugu*</option>
-                <option value="Čiśćenje privatnih stanova/kuća" name="usluga">Čiśćenje privatnih stanova/kuća</option>
-                <option value="Čiśćenje okućnice" name="usluga">Čiśćenje okućnice</option>
-                <option value="Odvoz nepotrebnog materijala" name="usluga">Odvoz nepotrebnog materijala</option>
+                <option value="" disabled selected hidden>Pick service*</option>
+                <option value="Dubisnko čišcenje tapiciranog namještaja i tepiha" name="usluga">Dubisnko čišcenje tapiciranog namještaja i tepiha</option>
+                <option value="Čišcenje stanova i kuća" name="usluga">Čišcenje stanova i kuća</option>
+                <option value="Čišcenje nakon adaptacije i gtađevinski radova" name="usluga">Čišcenje nakon adaptacije i gtađevinski radova</option>
+                <option value="Čišćenje poslovnih prostora, ureda, firmi, ordinacija...(po dogovoru)" name="usluga">Čišćenje poslovnih prostora, ureda, firmi, ordinacija...(po dogovoru)</option>
+                <option value="Ostalo" name="usluga">Ostalo...</option>
             </select>
           </div>
           <div class="flex justify-between max-[630px]:flex-col">
