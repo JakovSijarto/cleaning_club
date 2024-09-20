@@ -53,7 +53,8 @@
       </div>
       <p class="w-[430px] text-[#3A4268] rubik-font max-[1200px]:w-[90%] max-[670px]:w-full">{{ $t("home.info1_naslov4") }}</p>
     </div>
-    
+    <p class="py-4 text-[15px] opacity-[50%] text-center px-4">(Sve cijene su informativnog karaktera.
+      Za točnu cijenu potrebno je napraviti procjenu mjesta predviđenog za čišćenje.)</p>
     <!-- Container for Cards -->
     <div class="flex max-[840px]:flex-col justify-center w-full gap-[2em] items-center mt-[42px] mb-[100px] max-[850px]:mb-[20px]">
       <div class="bg-white border border-gray-200 rounded-lg h-[500px] max-[440px]:h-auto shadow dark:bg-gray-800 dark:border-gray-700 w-full max-w-[400px]">
@@ -167,7 +168,9 @@
       </div>
     </div>
   </div>
+ 
 </div>
+
        <kontaktbottom/>
   </div>
 </template>
