@@ -22,6 +22,8 @@
         "info1_naslov3":"izaberite nas!",
         "info1_naslov4":"Naša agencija ima najbolje ljude i proizvode za čiščenje. Ovo su neke od stvari kojih se uvijek držimo.",
 
+        "info1_informativno":"(Sve cijene su informativnog karaktera. Za točnu cijenu potrebno je napraviti procjenu mjesta predviđenog za čišćenje.)",
+
         "info1_slide3_naslov1":"Što želimo za Vas!",
         "info1_slide3_naslov2":"Uz našu pomoć imati ćete više slobodnog vremena uz čiščenje prema Vašim potrebama",
 
@@ -37,7 +39,36 @@
         "info2_about3_naslov":"Platite i dobite račun!",
         "info2_about3_opis":"Plaćanje na kraju, nakon što ste potpuno zadovoljni sa našom uslugom.",
 
-        "info2_button":"Javite nam se"
+        "info2_button":"Javite nam se",
+
+        "tab_header1":"Tapicirani namještaj i tepih",
+        "tab_header1_desc1":"Kutna garnitura:",
+        "tab_header1_desc2":"Mala",
+        "tab_header1_desc3":"Velika",
+
+        "tab_header2":"Čiščenje stanova i kuća",
+        "tab_header2_desc1":"Čišćenje",
+        "tab_header2_desc2":"Generalno čišćenje",
+        "tab_header2_desc3":"Prozori",
+
+        "tab_header3":"Čišćenje nakon adaptacije i građevinskih radova",
+        "tab_header3_desc1":"Prostor do",
+        "tab_header3_desc2":"Prostor veći od",
+
+        "tab_header4":"Namještaj",
+        "tab_header4_desc1":"Trosjed:",
+        "tab_header4_desc2":"Dvosjed:",
+        "tab_header4_desc3":"Fotelja:",
+        "tab_header4_desc4":"Tabure",
+        "tab_header4_desc5":"Madrac 1 osoba",
+        "tab_header4_desc6":"Bračni madrac",
+        "tab_header4_desc7":"Box krevet sa madracem",
+        "tab_header4_desc8":"Tepih",
+
+        "tab_header5":"Ostalo",
+        "tab_header5_desc":"Čišćenje poslovnih prostora, ureda, firmi, ordinacija po dogovoru",
+
+        "javitese":"Javite se"
     },
     "aboutus_service":{
         "naslov":"Naše usluge",

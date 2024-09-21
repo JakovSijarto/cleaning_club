@@ -14,23 +14,29 @@
         <div class="mt-[100px] max-[1100px]:mt-[0px] flex px-[30px] text-white flex flex-col ">
           <p class="text-[24px] font-semibold mb-[24px]">{{ $t("home.usluga") }}</p>
           <form ref="form" @submit.prevent="sendEmail">
-            <input type="text" required name="ime" v-model="ime" class="mb-[18px] h-[46px] bg-[#007CFB] border border-[white] py-[6px] px-[22px] text-[15px] w-full text-white rounded-[5px]" placeholder="Name*">
-            <input type="text" required name="brojmobitela" v-model="brojmobitela" class="mb-[18px] h-[46px] bg-[#007CFB] border border-[white] py-[6px] px-[22px] text-[15px] w-full text-white rounded-[5px]" placeholder="Telephone*">
-            <input type="text" required name="email" v-model="email" class="mb-[18px] h-[46px] bg-[#007CFB] border border-[white] py-[6px] px-[22px] text-[15px] w-full text-white rounded-[5px]" placeholder="Email*">
-            <select required class="mb-[18px] h-[46px] bg-[#007CFB] border border-[white] py-[6px] px-[22px] text-[15px] w-full text-white rounded-[5px]">
-                <option value="" disabled selected hidden>Pick service*</option>
-                <option value="Dubisnko čišcenje tapiciranog namještaja i tepiha" name="usluga">Dubisnko čišcenje tapiciranog namještaja i tepiha</option>
-                <option value="Čišcenje stanova i kuća" name="usluga">Čišcenje stanova i kuća</option>
-                <option value="Čišcenje nakon adaptacije i gtađevinski radova" name="usluga">Čišcenje nakon adaptacije i gtađevinski radova</option>
-                <option value="Čišćenje poslovnih prostora, ureda, firmi, ordinacija...(po dogovoru)" name="usluga">Čišćenje poslovnih prostora, ureda, firmi, ordinacija...(po dogovoru)</option>
-                <option value="Ostalo" name="usluga">Ostalo...</option>
-            </select>
-            <textarea name="poruka" id="" v-model="poruka" class="mb-[18px] h-[100px] max-h-[100px] bg-[#007CFB] border border-[white] py-[15px] px-[22px] text-[15px] w-full text-white rounded-[5px] " placeholder="Message"></textarea>
-            <button class="button" id="button-7" type="submit" value="Send">
-              <div id="dub-arrow" class="font-bold">{{ $t("home.service_button2") }}</div>
-              <a href="#" class="font-bold">{{ $t("home.service_button1") }}</a>
-            </button>
-          </form>
+  <input type="text" required name="ime" v-model="ime" class="mb-[18px] h-[46px] bg-[#007CFB] border border-[white] py-[6px] px-[22px] text-[15px] w-full text-white rounded-[5px]" placeholder="Name*">
+  
+  <input type="text" required name="brojmobitela" v-model="brojmobitela" class="mb-[18px] h-[46px] bg-[#007CFB] border border-[white] py-[6px] px-[22px] text-[15px] w-full text-white rounded-[5px]" placeholder="Telephone*">
+  
+  <input type="text" required name="email" v-model="email" class="mb-[18px] h-[46px] bg-[#007CFB] border border-[white] py-[6px] px-[22px] text-[15px] w-full text-white rounded-[5px]" placeholder="Email*">
+  
+  <select required name="usluga" v-model="usluga" class="mb-[18px] h-[46px] bg-[#007CFB] border border-[white] py-[6px] px-[22px] text-[15px] w-full text-white rounded-[5px]">
+    <option value="" disabled selected hidden>Pick service*</option>
+    <option value="Dubinsko čišcenje tapiciranog namještaja i tepiha">Dubinsko čišcenje tapiciranog namještaja i tepiha</option>
+    <option value="Čišcenje stanova i kuća">Čišcenje stanova i kuća</option>
+    <option value="Čišcenje nakon adaptacije i gtađevinski radova">Čišcenje nakon adaptacije i gtađevinski radova</option>
+    <option value="Čišćenje poslovnih prostora, ureda, firmi, ordinacija...(po dogovoru)">Čišćenje poslovnih prostora, ureda, firmi, ordinacija...(po dogovoru)</option>
+    <option value="Ostalo">Ostalo...</option>
+  </select>
+
+  <textarea name="poruka" v-model="poruka" class="mb-[18px] h-[100px] max-h-[100px] bg-[#007CFB] border border-[white] py-[15px] px-[22px] text-[15px] w-full text-white rounded-[5px]" placeholder="Message"></textarea>
+  
+  <button class="button" id="button-7" type="submit" value="Send">
+    <div id="dub-arrow" class="font-bold">{{ $t("home.service_button2") }}</div>
+    <a href="#" class="font-bold">{{ $t("home.service_button1") }}</a>
+  </button>
+</form>
+
         </div>
       </div>
     </div>
@@ -53,8 +59,7 @@
       </div>
       <p class="w-[430px] text-[#3A4268] rubik-font max-[1200px]:w-[90%] max-[670px]:w-full">{{ $t("home.info1_naslov4") }}</p>
     </div>
-    <p class="py-4 text-[15px] opacity-[50%] text-center px-4">(Sve cijene su informativnog karaktera.
-      Za točnu cijenu potrebno je napraviti procjenu mjesta predviđenog za čišćenje.)</p>
+    <p class="py-4 text-[15px] opacity-[50%] text-center px-4">{{ $t("home.info1_informativno") }}</p>
     <!-- Container for Cards -->
     <div class="flex max-[840px]:flex-col justify-center w-full gap-[2em] items-center mt-[42px] mb-[100px] max-[850px]:mb-[20px]">
       <div class="bg-white border border-gray-200 rounded-lg h-[500px] max-[440px]:h-auto shadow dark:bg-gray-800 dark:border-gray-700 w-full max-w-[400px]">
@@ -63,13 +68,13 @@
         </a>
         <div class="p-5">
           <a href="#">
-            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Tapicirani namještaj i tepih</h5>
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{{ $t("home.tab_header1") }}</h5>
           </a>
           <ul class="mb-3 font-normal text-white py-4">
-            <li>Kutna garnitura: <p>Mala:<b class="tracking-[1px] pl-2">45€</b></p><p>Velika:<b class="tracking-[1px] pl-2">55€</b></p></li>
+            <li>{{ $t("home.tab_header1") }} <p>{{ $t("home.tab_header1_desc2") }}<b class="tracking-[1px] pl-2">45€</b></p><p>{{ $t("home.tab_header1_desc3") }}<b class="tracking-[1px] pl-2">55€</b></p></li>
           </ul>        
           <router-link to="/kontakt" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-            Javite se
+            {{ $t("home.javitese") }}
             <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="" fill="none" viewBox="0 0 14 10">
               <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
             </svg>
@@ -82,15 +87,15 @@
         </div>
         <div class="p-5">
           <div>
-            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Čiščenje stanova i kuća </h5>
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{{ $t("home.tab_header2") }}</h5>
           </div>
           <ul class="mb-3 font-normal text-white py-4 pt-12 max-[850px]:pt-4">
-            <li>Čišćenje:<b class="tracking-[1px] pl-2">13€/h</b></li>
-            <li>Generalno čišćenje:<b class="tracking-[1px] pl-2">4€/m2</b></li>
-            <li>Prozori:<b class="tracking-[1px] pl-2">2€/m2</b></li>
+            <li>{{ $t("home.tab_header2_desc1") }}<b class="tracking-[1px] pl-2">13€/h</b></li>
+            <li>{{ $t("home.tab_header2_desc2") }}<b class="tracking-[1px] pl-2">4€/m2</b></li>
+            <li>{{ $t("home.tab_header2_desc3") }}<b class="tracking-[1px] pl-2">2€/m2</b></li>
           </ul>        
           <router-link to="/kontakt" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-            Javite se
+            {{ $t("home.javitese") }}
             <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="" fill="none" viewBox="0 0 14 10">
               <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
             </svg>
@@ -103,14 +108,14 @@
         </div>
         <div class="p-5">
           <div>
-            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Čišćenje nakon adaptacije i građevinskih radova</h5>
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{{ $t("home.tab_header3") }}</h5>
           </div>
           <ul class="mb-3 font-normal text-white py-4">
-            <li>Prostor do 500m2:<b class="tracking-[1px] pl-2">5€/m2</b></li>
-            <li>Prostor veći od 500m2:<b class="tracking-[1px] pl-2">4€/m2</b></li>
+            <li>{{ $t("home.tab_header3_desc1") }} 500m2:<b class="tracking-[1px] pl-2">5€/m2</b></li>
+            <li>{{ $t("home.tab_header3_desc2") }} 500m2:<b class="tracking-[1px] pl-2">4€/m2</b></li>
           </ul>       
           <router-link to="/kontakt" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-            Javite se
+            {{ $t("home.javitese") }}
             <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="" fill="none" viewBox="0 0 14 10">
               <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
             </svg>
@@ -126,20 +131,20 @@
   </div>
   <div class="p-5">
     <div>
-      <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Namještaj:</h5>
+      <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{{ $t("home.tab_header4") }}</h5>
     </div>
     <ul class="mb-3 font-normal text-white py-4">
-      <li class="flex justify-between">Trosjed :<b class="tracking-[1px] pl-2">35€</b></li>
-      <li class="flex justify-between">Dvosjed:<b class="tracking-[1px] pl-2">30€</b></li>
-      <li class="flex justify-between">Fotelja:<b class="tracking-[1px] pl-2">15€</b></li>
-      <li class="flex justify-between">Tabure:<b class="tracking-[1px] pl-2">10€</b></li>
-      <li class="flex justify-between">Madrac 1 osoba:<b class="tracking-[1px] pl-2">15€</b></li>
-      <li class="flex justify-between">Bračni madrac:<b class="tracking-[1px] pl-2">30€</b></li>
-      <li class="flex justify-between">Box krevet sa madracem:<b class="tracking-[1px] pl-2">45€</b></li>
-      <li class="flex justify-between">Tepih:<b class="tracking-[1px] pl-2">4€/m2</b></li>
+      <li class="flex justify-between">{{ $t("home.tab_header4_desc1") }}<b class="tracking-[1px] pl-2">35€</b></li>
+      <li class="flex justify-between">{{ $t("home.tab_header4_desc2") }}<b class="tracking-[1px] pl-2">30€</b></li>
+      <li class="flex justify-between">{{ $t("home.tab_header4_desc3") }}<b class="tracking-[1px] pl-2">15€</b></li>
+      <li class="flex justify-between">{{ $t("home.tab_header4_desc4") }}<b class="tracking-[1px] pl-2">10€</b></li>
+      <li class="flex justify-between">{{ $t("home.tab_header4_desc5") }}<b class="tracking-[1px] pl-2">15€</b></li>
+      <li class="flex justify-between">{{ $t("home.tab_header4_desc6") }}<b class="tracking-[1px] pl-2">30€</b></li>
+      <li class="flex justify-between">{{ $t("home.tab_header4_desc7") }}<b class="tracking-[1px] pl-2">45€</b></li>
+      <li class="flex justify-between">{{ $t("home.tab_header4_desc8") }}<b class="tracking-[1px] pl-2">4€/m2</b></li>
     </ul>       
     <router-link to="/kontakt" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-      Javite se
+      {{ $t("home.javitese") }}
       <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="" fill="none" viewBox="0 0 14 10">
         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
       </svg>
@@ -153,13 +158,13 @@
         </div>
         <div class="p-5">
           <div>
-            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Ostalo</h5>
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{{ $t("home.tab_header5") }}</h5>
           </div>
           <ul class="mb-3 font-normal text-white py-4">
-            <li>Čišćenje poslovnih prostora, ureda, firmi, ordinacija po dogovoru</li>
+            <li>{{ $t("home.tab_header5_desc1") }}</li>
           </ul>       
           <router-link to="/kontakt" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-            Javite se
+            {{ $t("home.javitese") }}
             <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="" fill="none" viewBox="0 0 14 10">
               <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
             </svg>
@@ -176,44 +181,54 @@
 </template>
 
 
-
 <script>
 import emailjs from 'emailjs-com';
 import swal from 'sweetalert';
-import {Tabs, Tab} from 'vue3-tabs-component';
+import { Tabs, Tab } from 'vue3-tabs-component';
 
 export default {
-  components:{
+  components: {
     Tabs,
     Tab
   },
-  data(){
-    return{
-      ime:"",
-      email:"",
-      poruka:"",
-      brojmobitela:""
-    }
+  data() {
+    return {
+      ime: "",
+      email: "",
+      poruka: "",
+      brojmobitela: "",
+      usluga: ""  // Added usluga to data
+    };
   },
   methods: {
     sendEmail() {
-      emailjs.sendForm('service_clwuk55', 'template_owzjwz9', this.$refs.form, '6y58hytHJtD9eVBSB')
-        .then((result) => {
-             console.log('SUCCESS!', result.text);
-            swal({title: "Uspješno!", text: "Hvala Na poruci", type: 
-"success"}).then(function(){ 
-   location.reload();
-   }
-);
-        }, (error) => {
-            console.log('FAILED...', error.text);
-        });
-        
-    },
+      // Prepare form data
+      const templateParams = {
+        ime: this.ime,
+        brojmobitela: this.brojmobitela,
+        email: this.email,
+        usluga: this.usluga,  // Send selected service
+        poruka: this.poruka
+      };
 
-  },
+      // Send the email using emailjs
+      emailjs.send('service_clwuk55', 'template_owzjwz9', templateParams, '6y58hytHJtD9eVBSB')
+        .then((result) => {
+          console.log('SUCCESS!', result.text);
+          swal({ title: "Success!", text: "Thank you for your message", icon: "success" })
+            .then(function() { 
+              location.reload();
+            });
+        }, (error) => {
+          console.log('FAILED...', error.text);
+        });
+    }
+  }
 };
 </script>
+
+
+
 <script setup>
 import aboutussection from "./components/aboutus-services.vue"
  import kontaktbottom from "./components/contact-bottom.vue"

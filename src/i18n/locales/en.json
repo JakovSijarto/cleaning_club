@@ -22,6 +22,8 @@
         "info1_naslov3":"choose us!",
         "info1_naslov4":"Our agency has the best people and cleaning products. These are some of the things we always stick to.",
 
+        "info1_informativno":"(All prices are informative. For the exact price, it is necessary to make an assessment of the place intended for cleaning.)",
+
         "info2_naslov1":"How we work?",
         "info2_naslov2":"We get the job done!",
         "info2_naslov3":"Choose us!",
@@ -34,7 +36,36 @@
         "info2_about3_naslov":"Pay and get an invoice!",
         "info2_about3_opis":"Payment at the end, after you are completely satisfied with our service.",
 
-        "info2_button":"Contact us"
+        "info2_button":"Contact us",
+
+        "tab_header1":"Upholstered furniture and carpet",
+        "tab_header1_desc1":"Corner sofa:",
+        "tab_header1_desc2":"Small",
+        "tab_header1_desc3":"Big",
+
+        "tab_header2":"Cleaning of apartments and houses",
+        "tab_header2_desc1":"Cleaning",
+        "tab_header2_desc2":"General cleaning",
+        "tab_header2_desc3":"Windows",
+
+        "tab_header3":"Cleaning after adaptation and construction works",
+        "tab_header3_desc1":"Space up to",
+        "tab_header3_desc2":"Space greater than",
+
+        "tab_header4":"Furniture",
+        "tab_header4_desc1":"Three-seater:",
+        "tab_header4_desc2":"Two-seater:",
+        "tab_header4_desc3":"Armchair:",
+        "tab_header4_desc4":"Tabouret",
+        "tab_header4_desc5":"Mattress for 1 person",
+        "tab_header4_desc6":"Double mattress",
+        "tab_header4_desc7":"Box bed with mattress",
+        "tab_header4_desc8":"Carpet",
+
+        "tab_header5":"Other",
+        "tab_header5_desc":"Cleaning of business premises, offices, companies, surgeries by arrangement",
+
+        "javitese":"Get in touch"
     },
     "aboutus_service":{
         "naslov":"Our services",
@@ -42,13 +73,13 @@
         "naslov3":"call us!",
         "naslov4":"Call us and we are at your address. Leave the cleaning of your home to professionals.",
         "opis1_naslov":"Our services",
-        "opis1_opis":"Cleaning of apartments, houses, business premises, offices, hotels, health institutions (practices and polyclinics) and apartments",
+        "opis1_opis":"Cleaning of apartments and maintenance, Cleaning of business premises and maintenance, Cleaning of buildings, Cleaning of apartments",
 
         "opis2_naslov":"Removal of unnecessary materials",
         "opis2_opis":"We are also at your service to remove all unnecessary material from your home",
 
         "opis3_naslov":"Additional information",
-        "opis3_opis":"Cleaning of apartments and maintenance, Cleaning of business premises and maintenance, Cleaning of buildings, Cleaning of apartments"
+        "opis3_opis":"Cleaning of newly built buildings and buildings after renovation, deep cleaning of upholstered furniture and carpets"
     },
     "contact-bottom":{
         "naslov":"Information",
