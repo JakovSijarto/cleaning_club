@@ -44,137 +44,155 @@
       <aboutussection/>  
     </div>
     
-    <div class="flex justify-center items-center pt-[95px]">
-  <div class="flex flex-col items-center w-full max-w-[1200px] px-4">
+    <div class="flex justify-center items-center py-24 bg-gradient-to-b from-blue-50 to-white">
+  <div class="flex flex-col items-center w-full max-w-7xl px-4">
     <!-- Container for Title and Subtitles -->
-    <div class="flex w-full justify-between gap-[1em] items-center max-[1200px]:flex-col max-[1200px]:text-center">
-      <div class="max-[1200px]:flex max-[1200px]:flex-col max-[1200px]:items-center">
-        <p class="rubik-font text-[18px] font-semibold text-[#3A4268] flex gap-[1em] items-center"> 
-          <img src="../../assets/home/stars-aboutus-home.svg" alt="" class="w-[34px]">{{ $t("home.info1_naslov1") }}
+    <div class="flex flex-col md:flex-row md:justify-between w-full gap-6 items-center md:items-start">
+      <div class="flex flex-col items-center md:items-start">
+        <p class="rubik-font text-lg font-semibold text-blue-700 flex gap-2 items-center">
+          <img src="../../assets/home/stars-aboutus-home.svg" alt="Stars Icon" class="w-8">
+          {{ $t("home.info1_naslov1") }}
         </p>
-        <p class="text-[#082680] text-[36px] font-extrabold flex flex-col text-start mt-[15px] max-[1200px]:text-center">
+        <p class="text-3xl font-extrabold text-blue-900 mt-4 text-center md:text-left">
           {{ $t("home.info1_naslov2") }}
-          <small class="font-normal mb-[14px]">{{ $t("home.info1_naslov3") }}</small>
+          <small class="font-normal text-xl block mt-2">{{ $t("home.info1_naslov3") }}</small>
         </p>
       </div>
-      <p class="w-[430px] text-[#3A4268] rubik-font max-[1200px]:w-[90%] max-[670px]:w-full">{{ $t("home.info1_naslov4") }}</p>
+      <p class="w-full md:w-2/5 text-blue-700 rubik-font text-center md:text-left">
+        {{ $t("home.info1_naslov4") }}
+      </p>
     </div>
-    <p class="py-4 text-[15px] opacity-[50%] text-center px-4">{{ $t("home.info1_informativno") }}</p>
+    <p class="py-4 text-sm opacity-70 text-center px-4 text-blue-600">
+      {{ $t("home.info1_informativno") }}
+    </p>
     <!-- Container for Cards -->
-    <div class="flex max-[840px]:flex-col justify-center w-full gap-[2em] items-center mt-[42px] mb-[100px] max-[850px]:mb-[20px]">
-      <div class="bg-white border border-gray-200 rounded-lg h-[500px] max-[440px]:h-auto shadow dark:bg-gray-800 dark:border-gray-700 w-full max-w-[400px]">
+    <div class="flex flex-wrap justify-center w-full gap-6 mt-10 mb-24">
+      
+      
+      <!-- Second Card -->
+      <div class="bg-white border border-blue-300 rounded-lg shadow hover:shadow-xl transition-shadow duration-300 w-full max-w-sm">
         <a href="#">
-          <img class="rounded-t-lg w-full" src="../../assets/home/1.jpg" alt="" />
+          <img class="rounded-t-lg w-full h-48 object-cover" src="../../assets/home/2.jpg" alt="Service 2" loading="lazy" />
         </a>
-        <div class="p-5">
+        <div class="p-6">
           <a href="#">
-            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{{ $t("home.tab_header1") }}</h5>
+            <h5 class="mb-3 text-2xl font-bold text-blue-800">{{ $t("home.tab_header2") }}</h5>
           </a>
-          <ul class="mb-3 font-normal text-white py-4">
-            <li>{{ $t("home.tab_header1") }} <p>{{ $t("home.tab_header1_desc2") }}<b class="tracking-[1px] pl-2">45€</b></p><p>{{ $t("home.tab_header1_desc3") }}<b class="tracking-[1px] pl-2">55€</b></p></li>
-          </ul>        
-          <router-link to="/kontakt" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+          <ul class="mb-4 font-normal text-blue-700 space-y-2">
+            <li>{{ $t("home.tab_header2_desc1") }} <b class="ml-2">13€/h</b></li>
+            <li>{{ $t("home.tab_header2_desc2") }} <b class="ml-2">4€/m²</b></li>
+            <li>{{ $t("home.tab_header2_desc3") }} <b class="ml-2">2€/m²</b></li>
+          </ul>
+          <router-link to="/kontakt" class="inline-flex items-center px-4 py-2 text-sm font-medium text-white bg-blue-600 rounded-lg hover:bg-blue-700 focus:ring-4 focus:ring-blue-300 transition">
             {{ $t("home.javitese") }}
-            <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="" fill="none" viewBox="0 0 14 10">
+            <svg class="w-4 h-4 ml-2" aria-hidden="true" fill="none" viewBox="0 0 14 10">
               <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
             </svg>
           </router-link>
         </div>
       </div>
-      <div class="bg-white border border-gray-200 rounded-lg h-[500px] max-[440px]:h-auto shadow dark:bg-gray-800 dark:border-gray-700 w-full max-w-[400px] mx-12">
-        <div>
-          <img class="rounded-t-lg w-full" src="../../assets/home/2.jpg" alt="" />
-        </div>
-        <div class="p-5">
-          <div>
-            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{{ $t("home.tab_header2") }}</h5>
-          </div>
-          <ul class="mb-3 font-normal text-white py-4 pt-12 max-[850px]:pt-4">
-            <li>{{ $t("home.tab_header2_desc1") }}<b class="tracking-[1px] pl-2">13€/h</b></li>
-            <li>{{ $t("home.tab_header2_desc2") }}<b class="tracking-[1px] pl-2">4€/m2</b></li>
-            <li>{{ $t("home.tab_header2_desc3") }}<b class="tracking-[1px] pl-2">2€/m2</b></li>
-          </ul>        
-          <router-link to="/kontakt" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+      <!-- First (Highlighted) Card -->
+      <div class="bg-white border-4 border-blue-500 rounded-lg shadow-lg w-full max-w-sm transform hover:scale-105 transition-transform duration-300">
+        <a href="#">
+          <img class="rounded-t-lg w-full h-48 object-cover" src="../../assets/home/1.jpg" alt="Service 1" loading="lazy" />
+        </a>
+        <div class="p-6">
+          <a href="#">
+            <h5 class="mb-3 text-2xl font-bold text-blue-800">{{ $t("home.tab_header1") }}</h5>
+          </a>
+          <ul class="mb-4 font-normal text-blue-700 space-y-2">
+            <li>
+              {{ $t("home.tab_header1") }}
+              <p>{{ $t("home.tab_header1_desc2") }} <b class="ml-2">45€</b></p>
+              <p>{{ $t("home.tab_header1_desc3") }} <b class="ml-2">55€</b></p>
+            </li>
+          </ul>
+          <router-link to="/kontakt" class="inline-flex items-center px-4 py-2 text-sm font-medium text-white bg-blue-600 rounded-lg hover:bg-blue-700 focus:ring-4 focus:ring-blue-300 transition">
             {{ $t("home.javitese") }}
-            <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="" fill="none" viewBox="0 0 14 10">
+            <svg class="w-4 h-4 ml-2" aria-hidden="true" fill="none" viewBox="0 0 14 10">
               <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
             </svg>
           </router-link>
         </div>
       </div>
-      <div class="bg-white border border-gray-200 h-[500px] max-[440px]:h-auto rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 w-full max-w-[400px]">
-        <div>
-          <img class="rounded-t-lg w-full" src="../../assets/home/3.jpg" alt="" />
-        </div>
-        <div class="p-5">
-          <div>
-            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{{ $t("home.tab_header3") }}</h5>
-          </div>
-          <ul class="mb-3 font-normal text-white py-4">
-            <li>{{ $t("home.tab_header3_desc1") }} 500m2:<b class="tracking-[1px] pl-2">5€/m2</b></li>
-            <li>{{ $t("home.tab_header3_desc2") }} 500m2:<b class="tracking-[1px] pl-2">4€/m2</b></li>
-          </ul>       
-          <router-link to="/kontakt" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+      <!-- Third Card -->
+      <div class="bg-white border border-blue-300 rounded-lg shadow hover:shadow-xl transition-shadow duration-300 w-full max-w-sm">
+        <a href="#">
+          <img class="rounded-t-lg w-full h-48 object-cover" src="../../assets/home/3.jpg" alt="Service 3" loading="lazy" />
+        </a>
+        <div class="p-6">
+          <a href="#">
+            <h5 class="mb-3 text-2xl font-bold text-blue-800">{{ $t("home.tab_header3") }}</h5>
+          </a>
+          <ul class="mb-4 font-normal text-blue-700 space-y-2">
+            <li>{{ $t("home.tab_header3_desc1") }} 500m²: <b class="ml-2">5€/m²</b></li>
+            <li>{{ $t("home.tab_header3_desc2") }} 500m²: <b class="ml-2">4€/m²</b></li>
+          </ul>
+          <router-link to="/kontakt" class="inline-flex items-center px-4 py-2 text-sm font-medium text-white bg-blue-600 rounded-lg hover:bg-blue-700 focus:ring-4 focus:ring-blue-300 transition">
             {{ $t("home.javitese") }}
-            <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="" fill="none" viewBox="0 0 14 10">
+            <svg class="w-4 h-4 ml-2" aria-hidden="true" fill="none" viewBox="0 0 14 10">
               <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
             </svg>
           </router-link>
         </div>
+      </div>
+    </div>
+    <!-- Additional Cards Section -->
+    <div class="flex flex-wrap justify-center w-full gap-6">
+      <div class="bg-white border border-blue-300 rounded-lg shadow hover:shadow-xl transition-shadow duration-300 w-full max-w-7xl">
+  <!-- Combined Image -->
+  <a href="#">
+    <img class="rounded-t-lg w-full h-64 object-cover" src="../../assets/home/combined-service.jpg" alt="Combined Services" loading="lazy" />
+  </a>
+  
+  <div class="p-6">
+    <!-- Combined Heading -->
+    <a href="#">
+      <h5 class="mb-3 text-2xl font-bold text-blue-800">OSTALO</h5>
+    </a>
+
+    <!-- Split content into two columns on larger screens, stack on smaller screens -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      
+      <!-- Left Column: Service 4 Details -->
+      <div>
+        <h6 class="text-lg font-semibold text-blue-700 mb-2">{{ $t("home.tab_header4") }}</h6>
+        <ul class="mb-4 font-normal text-blue-700 space-y-2">
+          <li class="flex justify-between">{{ $t("home.tab_header4_desc1") }}<b>35€</b></li>
+          <li class="flex justify-between">{{ $t("home.tab_header4_desc2") }}<b>30€</b></li>
+          <li class="flex justify-between">{{ $t("home.tab_header4_desc3") }}<b>15€</b></li>
+          <li class="flex justify-between">{{ $t("home.tab_header4_desc4") }}<b>10€</b></li>
+        </ul>
       </div>
 
+      <!-- Right Column: Philosophy -->
+      <div>
+        <h6 class="text-lg font-semibold text-blue-700 mb-9"></h6>
+        <ul class="mb-4 font-normal text-blue-700 space-y-2">
+          <li class="flex justify-between">{{ $t("home.tab_header4_desc5") }}<b>15€</b></li>
+          <li class="flex justify-between">{{ $t("home.tab_header4_desc6") }}<b>30€</b></li>
+          <li class="flex justify-between">{{ $t("home.tab_header4_desc7") }}<b>45€</b></li>
+          <li class="flex justify-between">{{ $t("home.tab_header4_desc8") }}<b>4€/m²</b></li>
+        </ul>
+      </div>
     </div>
-    <div class="flex flex-row pb-12 w-[80%] justify-between gap-5 max-[600px]:flex-col max-[600px]:w-full max-[600px]:items-center">
-      <div class="bg-white border border-gray-200 h-auto max-w-[400px] rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 w-full">
-  <div>
-    <img class="rounded-t-lg w-full" src="../../assets/home/4.jpg" alt="" />
-  </div>
-  <div class="p-5">
-    <div>
-      <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{{ $t("home.tab_header4") }}</h5>
+
+    <!-- CTA Button -->
+    <div class="flex justify-start mt-6">
+      <router-link to="/kontakt" class="inline-flex items-center px-6 py-3 text-sm font-medium text-white bg-blue-600 rounded-lg hover:bg-blue-700 focus:ring-4 focus:ring-blue-300 transition">
+        {{ $t("home.javitese") }}
+        <svg class="w-4 h-4 ml-2" aria-hidden="true" fill="none" viewBox="0 0 14 10">
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+        </svg>
+      </router-link>
     </div>
-    <ul class="mb-3 font-normal text-white py-4">
-      <li class="flex justify-between">{{ $t("home.tab_header4_desc1") }}<b class="tracking-[1px] pl-2">35€</b></li>
-      <li class="flex justify-between">{{ $t("home.tab_header4_desc2") }}<b class="tracking-[1px] pl-2">30€</b></li>
-      <li class="flex justify-between">{{ $t("home.tab_header4_desc3") }}<b class="tracking-[1px] pl-2">15€</b></li>
-      <li class="flex justify-between">{{ $t("home.tab_header4_desc4") }}<b class="tracking-[1px] pl-2">10€</b></li>
-      <li class="flex justify-between">{{ $t("home.tab_header4_desc5") }}<b class="tracking-[1px] pl-2">15€</b></li>
-      <li class="flex justify-between">{{ $t("home.tab_header4_desc6") }}<b class="tracking-[1px] pl-2">30€</b></li>
-      <li class="flex justify-between">{{ $t("home.tab_header4_desc7") }}<b class="tracking-[1px] pl-2">45€</b></li>
-      <li class="flex justify-between">{{ $t("home.tab_header4_desc8") }}<b class="tracking-[1px] pl-2">4€/m2</b></li>
-    </ul>       
-    <router-link to="/kontakt" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-      {{ $t("home.javitese") }}
-      <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="" fill="none" viewBox="0 0 14 10">
-        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-      </svg>
-    </router-link>
   </div>
 </div>
 
-      <div class="bg-white border border-gray-200 h-[500px] max-[440px]:h-auto rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 w-full max-w-[400px]">
-        <div>
-          <img class="rounded-t-lg w-full" src="../../assets/home/nasafilozofija-home.jpg" alt="" />
-        </div>
-        <div class="p-5">
-          <div>
-            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{{ $t("home.tab_header5") }}</h5>
-          </div>
-          <ul class="mb-3 font-normal text-white py-4">
-            <li>{{ $t("home.tab_header5_desc1") }}</li>
-          </ul>       
-          <router-link to="/kontakt" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-            {{ $t("home.javitese") }}
-            <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="" fill="none" viewBox="0 0 14 10">
-              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-            </svg>
-          </router-link>
-        </div>
-      </div>
     </div>
   </div>
- 
 </div>
+
 
        <kontaktbottom/>
   </div>
