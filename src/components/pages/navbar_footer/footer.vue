@@ -8,8 +8,8 @@
                 </li>
                 <li class="text-[#C2D5E7] text-[14px]">
                     <p class="text-[24px] font-bold !text-white leading-relaxed max-[600px]:mt-8 max-[600px]:text-left">INFO:</p>
-                    <span class="flex flex-row items-center"><a href="tel:+38598249896" class="flex items-center gap-[0.5em] my-4"><img src="../../../assets/navbar-footer/phone_footer.svg" alt="" class="w-[20px]">+385 98 249 896</a> <p class="px-4">/</p><a class="text-[#c2cdeb] nav-font" href="tel:+38598342314">+385 98 342 314</a></span>
-                    <a href="mailto:oposepatal@gmail.com" class="flex gap-[0.5em]"><img src="../../../assets/navbar-footer/mail_footer.svg" alt="" class="w-[20px]">oposepatal@gmail.com</a>
+                    <span class="flex flex-row items-center"><a href="tel:+38598249896" class="flex items-center gap-[0.5em] my-4"><img src="../../../../public/navbar-footer/phone_footer.svg" alt="" class="w-[20px]">+385 98 249 896</a> <p class="px-4">/</p><a class="text-[#c2cdeb] nav-font" href="tel:+38598342314">+385 98 342 314</a></span>
+                    <a href="mailto:oposepatal@gmail.com" class="flex gap-[0.5em]"><img src="../../../../public/navbar-footer/mail_footer.svg" alt="" class="w-[20px]">oposepatal@gmail.com</a>
                 </li>
             </ul>
         </div>

@@ -3,7 +3,7 @@
       <div class="flex w-[1280px] justify-center flex-col items-center max-[1100px]:w-full px-2">
         <div class="flex items-center justify-center flex-col pb-[25px]">
           <div class="flex gap-[1em] my-8 flex-row items-center">
-          <img src="../../../assets/home/stars-aboutus-home.svg" alt="" class="w-[34px]">
+          <img src="../../../../public/home/stars-aboutus-home.svg" alt="" class="w-[34px]">
           <p class="rubik-font text-[18px] font-semibold text-[#3A4268]">{{ $t("aboutus_service.naslov") }}</p>
         </div>
         <div class="text-[#082680] text-[36px] font-extrabold flex flex-col text-center  max-[640px]:flex max-[640px]:items-center max-[640px]:justify-center max-[302px]:px-2">
@@ -14,13 +14,13 @@
         </div>
         <div class="flex gap-[2em] mt-[3em]   max-[950px]:flex-col max-[950px]:justify-center max-[950px]:items-center">
           <div class="w-[340px] h-[320px] box-shadow-aboutus rounded-[10px] flex justify-center items-center flex-col text-center max-[1100px]:w-full max-[950px]:w-[90%] max-[320px]:h-[360px]">
-            <img src="../../../assets/home/house-aboutus-home.svg" alt="" class="cssdottedborder mb-[14px]">
+            <img src="../../../../public/home/house-aboutus-home.svg" alt="" class="cssdottedborder mb-[14px]">
             <p class="text-[#082680] text-[20px] font-bold pb-[17px] mb-[14px]  w-[80%]">{{ $t("aboutus_service.opis1_naslov") }}</p>
             <p class="w-[80%] rubik-font text-[#3A4268] text-[14px]">{{ $t("aboutus_service.opis1_opis") }}</p>
           </div>
 
           <div class="w-[340px] h-[320px] box-shadow-aboutus rounded-[10px] flex justify-center items-center flex-col text-center max-[1100px]:w-full max-[950px]:w-[90%] max-[320px]:h-[360px]">
-            <img src="../../../assets/home/info-aboutus-home.svg" alt="" class="cssdottedborder mb-[14px]">
+            <img src="../../../../public/home/info-aboutus-home.svg" alt="" class="cssdottedborder mb-[14px]">
             <p class="text-[#082680] text-[20px] font-bold pb-[17px] mb-[14px]  w-[80%]">{{ $t("aboutus_service.opis3_naslov") }}</p>
             <p class="w-[80%] rubik-font text-[#3A4268] text-[14px]">
               {{ $t("aboutus_service.opis3_opis") }}

@@ -1,12 +1,12 @@
 <template>
-  <img src="../../assets/home/herosec_main_photo.png" alt="" class="object-cover w-full h-[1020px]">
+  <img src="../../../public/home/herosec_main_photo.png" alt="" class="object-cover w-full h-[1020px]">
   <div class="w-full">
     <div class="absolute top-[0%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex justify-between gap-[0.5em] mt-[40em] w-[1280px] max-[1340px]:w-full max-[1100px]:mt-[0em] max-[1340px]:px-2 max-[1100px]:flex-col max-[1100px]:items-center ">
       <div class="text-white w-[900px] max-[1100px]:w-full  max-[1100px]:mt-[80em]   max-[754px]:text-center max-[754px]:w-[400px] max-[460px]:w-full">
         <p class="text-[60px] font-bold leading-[1.2em] max-[754px]:text-[35px]">{{ $t("home.naslov_hero_veliki") }}</p>
         <p class="text-[18px] py-8 w-[600px] max-[1100px]:w-full max-[754px]:text-[14px]">{{ $t("home.naslov_hero_mali") }}</p>
         <router-link to="/aboutus" class="button" id="button-7">
-    <div id="dub-arrow"><img src="../../assets/home/herosec_main_button,svg.svg" alt="" /></div>
+    <div id="dub-arrow"><img src="../../../public/home/herosec_main_button,svg.svg" alt="" /></div>
     <a href="#" class="font-bold">{{ $t("home.hero_button") }}</a>
   </router-link>
       </div>
@@ -50,7 +50,7 @@
     <div class="flex flex-col md:flex-row md:justify-between w-full gap-6 items-center md:items-start">
       <div class="flex flex-col items-center md:items-start">
         <p class="rubik-font text-lg font-semibold text-blue-700 flex gap-2 items-center">
-          <img src="../../assets/home/stars-aboutus-home.svg" alt="Stars Icon" class="w-8">
+          <img src="../../../public/home/stars-aboutus-home.svg" alt="Stars Icon" class="w-8">
           {{ $t("home.info1_naslov1") }}
         </p>
         <p class="text-3xl font-extrabold text-blue-900 mt-4 text-center md:text-left">
@@ -72,7 +72,7 @@
       <!-- Second Card -->
       <div class="bg-white border border-blue-300 rounded-lg shadow hover:shadow-xl transition-shadow duration-300 w-full max-w-sm">
         <a href="#">
-          <img class="rounded-t-lg w-full h-48 object-cover" src="../../assets/home/2.jpg" alt="Service 2" loading="lazy" />
+          <img class="rounded-t-lg w-full h-48 object-cover" src="../../../public/home/2.jpg" alt="Service 2" loading="lazy" />
         </a>
         <div class="p-6">
           <a href="#">
@@ -94,7 +94,7 @@
       <!-- First (Highlighted) Card -->
       <div class="bg-white border-4 border-blue-500 rounded-lg shadow-lg w-full max-w-sm transform hover:scale-105 transition-transform duration-300">
         <a href="#">
-          <img class="rounded-t-lg w-full h-48 object-cover" src="../../assets/home/1.jpg" alt="Service 1" loading="lazy" />
+          <img class="rounded-t-lg w-full h-48 object-cover" src="../../../public/home/1.jpg" alt="Service 1" loading="lazy" />
         </a>
         <div class="p-6">
           <a href="#">
@@ -118,7 +118,7 @@
       <!-- Third Card -->
       <div class="bg-white border border-blue-300 rounded-lg shadow hover:shadow-xl transition-shadow duration-300 w-full max-w-sm">
         <a href="#">
-          <img class="rounded-t-lg w-full h-48 object-cover" src="../../assets/home/3.jpg" alt="Service 3" loading="lazy" />
+          <img class="rounded-t-lg w-full h-48 object-cover" src="../../../public/home/3.jpg" alt="Service 3" loading="lazy" />
         </a>
         <div class="p-6">
           <a href="#">
@@ -142,7 +142,7 @@
       <div class="bg-white border border-blue-300 rounded-lg shadow hover:shadow-xl transition-shadow duration-300 w-full max-w-7xl">
   <!-- Combined Image -->
   <a href="#">
-    <img class="rounded-t-lg w-full h-64 object-cover" src="../../assets/home/combined-service.jpg" alt="Combined Services" loading="lazy" />
+    <img class="rounded-t-lg w-full h-64 object-cover" src="../../../public/home/combined-service.jpg" alt="Combined Services" loading="lazy" />
   </a>
   
   <div class="p-6">
